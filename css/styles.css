@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,700italic,800);
+
+html {   
+  background-repeat: no-repeat;
+  box-shadow: inset 5 4 2 5000px solid;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("https://www.magna5global.com/wp-content/uploads/2019/04/servers-blue-background.png");
+  /*background-image: url("https://www.magna5global.com/wp-content/uploads/2019/04/servers-blue-background.png") https://ak6.picdn.net/shutterstock/videos/22579516/thumb/1.jpg; */
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: 101, 156, 52;
+/*   padding-top: auto;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: auto; */
+  -webkit-filter: blur(400%);
+  filter: blur(500%);
+  padding-left:auto;
+  padding-right:auto;
+  padding-bottom: auto; 
+ overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+article > h4 {
+  font-family: 'Angular', sans-serif;
+  color: white;
+  font-size: 17px;
+  letter-spacing: 0px;
+  padding-left: 70px;
+  padding-right: 70px;
+
+}
+
+
+}
+
+#UL {
+  font-family: 'Raleway', san-serif;
+  color: white;
+  text-shadow: .5px 5px 3px #000000;
+
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-shadow: .5px 5px 3px #000000;
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+} 
+
+/* DO NOT FORMAT OR CHANGE -- h3 block is a container with locked transparency*/
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-shadow: .5px .5px .5px #000000;
+}
+
+#project-link {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  text-align-last: left;
+  offset: 50%;
+}
+
+ h7 {
+    font-family: "Raleway", sans-serif;
+    text-align: left;
+    font-size: px;
+  }
+
+article {
+  display: flex-wrap;
+  justified: space-around;
+  background-color: #0009;
+  height 5px;
+  border: 50px solid #0000;
+  color: white;
+}
+
+ul {
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+#welcome-section {
+  color: #FFFFFF;
+  text-align: center;
+  top: -20%;
+  width: 100%;
+  display: inline-block;
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+}
+
+#name {
+  font-size: 100px;
+}
+
+#Skills {
+  font-size: ;
+  text-align: center;
+}
+
+#About {
+  font-size: 40px;
+  text-align: center;
+}
+
+project {
+  font-size: 40px;
+  text-align: center;
+}
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  align-content: auto;
+  color: white;
+  padding-left: 125px;
+  padding-right: 125px;
+  height: auto;
+  width: 100%;
+  justify-content: auto;
+  background-color:;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  }
+
+#links {
+		float: right;
+		font-size: 30px;
+		margin-right: 20px;
+}
+
+p {
+		float: left;
+		margin-left: 20px;
+    color: black;
+	}
+
+#welcome-section {
+  min-height: 60vh;
+  padding-top: 40vh;}
+
+#navbar{
+    top: 0px;
+    width: 41%;
+    
+}
+
+#navbar:after {
+    clear: both;
+    display: block;
+    }
+
+@media screen and (max-width: 600px) {
+    #navbar {
+        float: none;
+        width: 100%;
+    }
+ 
+#project-acc {
+    text-align: left;
+  }
+  
+#aboutme {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  text-align-last: left;
+  offset: 40%;
+}
+  
+/*Slides CSS*/
+.contact-slide {
+  display: inline-block;
+  margin-top: 10px;
+  font-size:50px;
+  radius: 20%;
+}
