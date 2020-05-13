@@ -187,20 +187,18 @@ p {
   display: inline-block;
   margin-top: 10px;
   font-size:50px;
-  radius: 20%;
 }
   
 .list-unstyled {
 font-family: 'Work Sans', sans-serif;
   font-size: 20px;
   text-align: center;
-  offset: 40%;
   color: white;
   padding-left: 100px;
   padding-right: 100px;
 }
   
-.col-md-3 {
+/*.col-md-3 {
 font-family: 'Work Sans', sans-serif;
   font-size: 20px;
   text-align-last: left;
@@ -208,14 +206,13 @@ font-family: 'Work Sans', sans-serif;
   color: white;
 }
  
- /*
+ 
 .mb-4 {
     margin-left: 25%;
     margin-right:25%;
     width: 50%;
   }
-  */
-
+  
   
   .row {
     margin-left: 25%;
@@ -223,4 +220,4 @@ font-family: 'Work Sans', sans-serif;
     width: 50%;
   } 
   
-
+*/
