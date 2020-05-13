@@ -89,7 +89,6 @@ article {
 ul {
   padding-left: 125px;
   padding-right: 125px;
-  text-size: 40px;
 }
 
 #welcome-section {
@@ -183,7 +182,7 @@ p {
   offset: 40%;
 }
   
-/*Slides CSS*/
+/*Slides CSS
 .contact-slide {
   display: inline-block;
   margin-top: 10px;
@@ -200,4 +199,5 @@ font-family: 'Work Sans', sans-serif;
   padding-left: 100px;
   padding-right: 100px;
 }
+*/
   
