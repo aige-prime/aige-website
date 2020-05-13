@@ -145,8 +145,8 @@ footer {
 }
 
 p {
-		float: left;
-		margin-left: 20px;
+	float: left;
+	margin-left: 20px;
     color: black;
 	}
 
@@ -200,19 +200,21 @@ font-family: 'Work Sans', sans-serif;
   padding-right: 100px;
 }
   
-/*.col-md-3 {
+.col-md-3 {
 font-family: 'Work Sans', sans-serif;
   font-size: 20px;
   text-align-last: left;
   offset: 40%;
   color: white;
 }
-  
+ 
+ /*
 .mb-4 {
     margin-left: 25%;
     margin-right:25%;
     width: 50%;
   }
+  */
 
   
   .row {
@@ -220,5 +222,5 @@ font-family: 'Work Sans', sans-serif;
     margin-right:25%;
     width: 50%;
   } 
-  */
+  
 
