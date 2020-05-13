@@ -2,7 +2,7 @@
 
 <html lang=en>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <main><link rel="stylesheet" href="css/styles.css" />
+  <main>
 <header container="background">
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Alike+Angular|Asul|Concert+One|Eczar|Fruktur|Kavoon|Neuton|Raleway:100|Space+Mono|Tillana|Work+Sans" rel="stylesheet"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
@@ -218,17 +218,95 @@ OTHER: Apache 2.0, PHP, Linux/Windows CLI, Linux OS, Windows OS, Macintosh OS, P
         <p>
              </article>
         <article name="contactsection" container="info" id="contact"><center></center><br><br><br><br>
-      <h4 class="section" id="contactsection" style="font-size:40px"><center>Contact Information</center></h4>
+      <h4 class="section" id="contactsection" style="font-size:40px; text-align:center;"><center>Contact Information</center></h4>
  <div class="slide slide3"><center>
- 		<h7 class="contact-slide">You can find me on the internet here:</h7><br><br><form action="/action_page.php" id="usrform">
+   <h7 class="contact-slide">You can find me on the internet here:</h7></center><br><br><center></center>
+   <!--<form action="/action_page.php" id="usrform">
   Email: <input type="email" name="usrname" width="auto" placeholder="Enter a valid email..." required>
   <input type="submit">
 </form>
 <br><center>
-<textarea rows="4" cols="50" name="comment" form="usrform">
-Enter text here...</textarea></center>
+<textarea rows="4" cols="50" name="comment" form="usrform"></textarea></center>-->
+   
+<br><center><!--Section: Contact v.2-->
+   <section class="mb-4 h-100 justify-content-center align-items-center"></center>
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4 h-100 justify-content-center align-items-center"></h2>
+    <!--Section description-->
 
-<br><br>
+    <div class="row h-100 justify-content-center align-items-center">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5 h-100">
+            <form class="form-factor" id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row h-100 justify-content-center align-items-center">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 h-100 justify-content-center align-items-center">
+                        <div class="md-form mb-0 h-100 justify-content-center align-items-center">
+                            <input type="text" id="form-name" name="name" class="form-control">
+                            <label for="name" class="">Name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 h-100 justify-content-center align-items-center">
+                        <div class="md-form mb-0 h-100 justify-content-center align-items-center">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Email Address</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2--><br>
 <!--
 					<a id="contact-links" href="mailto:abraham.ige@gmail.com">
 	 				<i style="font-size:48px;align-content:center;" class="fa fa-envelope"></i>
