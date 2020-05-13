@@ -26,6 +26,37 @@ body {
   overflow-x: hidden;
 }
 
+header {
+	ul {
+		list-style: none;
+		text-align: center;
+
+		li {
+			display: inline-block;
+			height: 50px;
+			width: 80px;
+
+			text-align: center;
+			font-family: "open sans";
+			line-height: 48px;
+
+			padding: 0 20px 0 20px;
+
+			&:hover {
+				background-color: black;
+				color: white;
+				cursor: pointer;
+			}
+
+			&.current {
+				background-color: black;
+				color: white;
+			}
+		}
+	}
+}
+
+
 article > h4 {
   font-family: 'Angular', sans-serif;
   color: white;
@@ -156,7 +187,7 @@ p {
 
 #navbar{
     top: 0px;
-    width: 41%;
+    width: 100%;
     
 }
 
@@ -182,22 +213,10 @@ p {
   offset: 40%;
 }
   
-/*Slides CSS
+/*Slides CSS*/
 .contact-slide {
   display: inline-block;
   margin-top: 10px;
   font-size:50px;
   radius: 20%;
 }
-  
-.list-unstyled {
-font-family: 'Work Sans', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  offset: 40%;
-  color: white;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-*/
-  
