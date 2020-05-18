@@ -9,9 +9,9 @@ html {
 body {
   background-image: url("https://www.magna5global.com/wp-content/uploads/2019/04/servers-blue-background.png");
   /*background-image: url("https://www.magna5global.com/wp-content/uploads/2019/04/servers-blue-background.png") https://ak6.picdn.net/shutterstock/videos/22579516/thumb/1.jpg; */
-  background-position: center;
+  background-position: center top;
   background-attachment: fixed;
-  background-size: cover;
+  background-size:;
   background-color: 101, 156, 52;
 /*   padding-top: auto;
   padding-left: auto;
@@ -19,6 +19,7 @@ body {
   padding-bottom: auto; */
   -webkit-filter: blur(400%);
   filter: blur(500%);
+  padding-top: auto;
   padding-left:auto;
   padding-right:auto;
   padding-bottom: auto; 
@@ -29,7 +30,7 @@ body {
 article > h4 {
   font-family: 'Angular', sans-serif;
   color: white;
-  font-size: 32px;
+  font-size: 24px;
   letter-spacing: 0px;
   padding-left: 70px;
   padding-right: 70px;
@@ -54,7 +55,7 @@ h1 {
 
 h2 {
   font-family: 'Work Sans', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
 } 
 
 /* DO NOT FORMAT OR CHANGE -- h3 block is a container with locked transparency*/
@@ -172,16 +173,32 @@ p {
     }
 	
 	// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) { 
+	.myText{
+	font-size: X vw
+	}
+}
 
 // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
+@media (max-width: 767.98px) { 
+	.myText{
+	font-size: X vw
+	}
+}
 
 // Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
+@media (max-width: 991.98px) { 
+	.myText{
+	font-size: X vw
+	}
+}
 
 // Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
+@media (max-width: 1199.98px) { 
+	.myText{
+	font-size: X vw
+	}
+}
 
 // Extra large devices (large desktops)
 // No media query since the extra-large breakpoint has no upper bound on its width
