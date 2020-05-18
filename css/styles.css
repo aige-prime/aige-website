@@ -29,7 +29,7 @@ body {
 article > h4 {
   font-family: 'Angular', sans-serif;
   color: white;
-  font-size: 17px;
+  font-size: 32px;
   letter-spacing: 0px;
   padding-left: 70px;
   padding-right: 70px;
@@ -81,7 +81,6 @@ article {
   display: flex-wrap;
   justified: space-around;
   background-color: #0009;
-  height 5px;
   border: 50px solid #0000;
   color: white;
 }
@@ -89,7 +88,7 @@ article {
 ul {
   padding-left: 125px;
   padding-right: 125px;
-  text-size: 40px;
+  font-size: 24px;
 }
 
 #welcome-section {
@@ -171,6 +170,21 @@ p {
         float: none;
         width: 100%;
     }
+	
+	// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
  
 #project-acc {
     text-align: left;
