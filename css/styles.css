@@ -12,7 +12,7 @@ body {
   /*background-image: url("https://www.magna5global.com/wp-content/uploads/2019/04/servers-blue-background.png") https://ak6.picdn.net/shutterstock/videos/22579516/thumb/1.jpg; */
   background-position: center top;
   background-attachment: fixed;
-  background-size: local;
+  background-size: scroll;
   background-color: 101, 156, 52;
 /*   padding-top: auto;
   padding-left: auto;
@@ -204,64 +204,71 @@ font-family: 'Work Sans', sans-serif;
 }
  
  /*Media Queries for Responsive Design*/
+ // Mobile devices (landscape phones, less than 480)
+@media only screen and (min-width: 480px){ 
+#main > #footer{
+	display: inline-block;
+	font-size: 14px;
+		}
+	}
 // Smallest devices (landscape phones, less than 768px)
-@media only screen and (min-device-width: 500px){ 
+@media only screen and (min-width: 500px){ 
 #main > #footer{
 	display: inline-block;
 	font-size: 14px;
 		}
 	}
 // Smaller devices (landscape phones, less than 768px)
-@media only screen and (min-device-width: 570px){ 
+@media only screen and (min-width: 570px){ 
 #main > #footer{
 	display: inline-block;
 	font-size: 15px;
 		}
 	}
 // Small devices (tablets, less than 992px)
-@media only screen and (min-device-width: 620px){ 
+@media only screen and (min-width: 620px){ 
 #main > #footer{
 	display: inline-block;
 	font-size: 16px;
 		}
 	}
 // Medium devices (desktops, less than 1200px)
-@media only screen and (min-device-width: 680px){ 
+@media only screen and (min-width: 680px){ 
 #main > #footer{
 	display: inline-block;
 	font-size: 17px;
 		}
 	}
 // Tablet devices (landscape phones, less than 768px)
-@media only screen and (min-device-width: 720px){ 
+@media only screen and (min-width: 720px){ 
 #main > #footer{
 	display: inline-block;
 	font-size: 18px;
 		}
 	}
 // Large devices (landscape phones, less than 768px)
-@media only screen and (min-device-width: 800px){ 
+@media only screen and (min-width: 800px){ 
 #main > #footer{
 	display: inline-block;
 	font-size: 19px;
 		}
 	}
 // Larger devices (tablets, less than 992px)
-@media only screen and (min-device-width: 860px){ 
+@media only screen and (min-width: 860px){ 
 #main > #footer{
 	display: inline-block;
 	font-size: 20px;
 		}
 	}
 // Big devices (desktops, less than 1200px)
-@media only screen and (min-device-width: 920px){ 
+@media only screen and (min-width: 920px){ 
 #main > #footer{
 	display: inline-block;
 	font-size: 21px;
 		}
 	}
 // Largeest devices (desktops, less than 1200px)
-@media only screen and (min-device-width: 1000px){ 
+@media only screen and (min-width: 1000px){ 
 #main > #footer{
 	display: inline-block;
 	font-size: 22px;
