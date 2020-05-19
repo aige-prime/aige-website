@@ -39,8 +39,6 @@ article > h4 {
 }
 
 
-}
-
 #UL {
   font-family: 'Raleway', san-serif;
   color: white;
@@ -147,19 +145,19 @@ footer {
 }
 
 p {
-		float: left;
-		margin-left: 20px;
+	float: left;
+	margin-left: 20px;
     color: black;
 	}
 
 #welcome-section {
   min-height: 60vh;
-  padding-top: 40vh;}
+  padding-top: 40vh;
+}
 
 #navbar{
     top: 0px;
     width: 41%;
-    
 }
 
 #navbar:after {
@@ -167,12 +165,14 @@ p {
     display: block;
     }
 
-@media screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
     #navbar {
+		display: inline-block;
         float: none;
         width: 100%;
     }
-	
+}
+
 
 #project-acc {
     text-align: left;
@@ -202,58 +202,68 @@ font-family: 'Work Sans', sans-serif;
   padding-left: 100px;
   padding-right: 100px;
 }
-  
+ 
+ /*Media Queries for Responsive Design*/
 // Smallest devices (landscape phones, less than 768px)
-@media screen and (min-width: 500px){ 
-	html{
+@media only screen and (min-device-width: 500px){ 
+#main > #footer{
+	display: inline-block;
 	font-size: 14px;
 		}
 	}
 // Smaller devices (landscape phones, less than 768px)
-@media screen and (min-width: 570px){ 
-	hmtl{
+@media only screen and (min-device-width: 570px){ 
+#main > #footer{
+	display: inline-block;
 	font-size: 15px;
 		}
 	}
 // Small devices (tablets, less than 992px)
-@media screen and (min-width: 620px){ 
-	html{
+@media only screen and (min-device-width: 620px){ 
+#main > #footer{
+	display: inline-block;
 	font-size: 16px;
 		}
 	}
 // Medium devices (desktops, less than 1200px)
-@media screen and (min-width: 680px){ 
-	html{
+@media only screen and (min-device-width: 680px){ 
+#main > #footer{
+	display: inline-block;
 	font-size: 17px;
 		}
 	}
 // Tablet devices (landscape phones, less than 768px)
-@media screen and (min-width: 720px){ 
-	html{
+@media only screen and (min-device-width: 720px){ 
+#main > #footer{
+	display: inline-block;
 	font-size: 18px;
 		}
 	}
 // Large devices (landscape phones, less than 768px)
-@media screen and (min-width: 800px){ 
-	hmtl{
+@media only screen and (min-device-width: 800px){ 
+#main > #footer{
+	display: inline-block;
 	font-size: 19px;
 		}
 	}
 // Larger devices (tablets, less than 992px)
-@media screen and (min-width: 860px){ 
-	html{
+@media only screen and (min-device-width: 860px){ 
+#main > #footer{
+	display: inline-block;
 	font-size: 20px;
 		}
 	}
 // Big devices (desktops, less than 1200px)
-@media screen and (min-width: 920px){ 
-	html{
+@media only screen and (min-device-width: 920px){ 
+#main > #footer{
+	display: inline-block;
 	font-size: 21px;
 		}
 	}
 // Largeest devices (desktops, less than 1200px)
-@media screen and (min-width: 1000px){ 
-	html{
+@media only screen and (min-device-width: 1000px){ 
+#main > #footer{
+	display: inline-block;
 	font-size: 22px;
 		}
 	}
