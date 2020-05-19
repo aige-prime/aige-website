@@ -5,6 +5,60 @@ html {
   box-shadow: inset 5 4 2 5000px solid;
   scroll-behavior: smooth;
 }
+		// Smallest devices (landscape phones, less than 768px)
+		@media screen and (min-width: 500px){ 
+			html{
+			font-size: 14px;
+		}
+	}
+		// Smaller devices (landscape phones, less than 768px)
+		@media screen and (min-width: 570px){ 
+			hmtl{
+			font-size: 15px;
+		}
+	}
+		// Small devices (tablets, less than 992px)
+		@media screen and (min-width: 620px){ 
+			html{
+			font-size: 16px;
+		}
+	}
+		// Medium devices (desktops, less than 1200px)
+		@media screen and (min-width: 680px){ 
+			html{
+			font-size: 17px;
+		}
+	}
+		// Tablet devices (landscape phones, less than 768px)
+		@media screen and (min-width: 720px){ 
+			html{
+			font-size: 18px;
+		}
+	}
+		// Large devices (landscape phones, less than 768px)
+		@media screen and (min-width: 800px){ 
+			hmtl{
+			font-size: 19px;
+		}
+	}
+		// Larger devices (tablets, less than 992px)
+		@media screen and (min-width: 860px){ 
+			html{
+			font-size: 20px;
+		}
+	}
+		// Big devices (desktops, less than 1200px)
+		@media screen and (min-width: 920px){ 
+			html{
+			font-size: 21px;
+		}
+	}
+		// Largeest devices (desktops, less than 1200px)
+		@media screen and (min-width: 1000px){ 
+			html{
+			font-size: 22px;
+		}
+	}
 
 body {
   background-image: url("https://www.magna5global.com/wp-content/uploads/2019/04/servers-blue-background.png");
