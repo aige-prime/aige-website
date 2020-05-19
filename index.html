@@ -2,6 +2,46 @@
 
 <html lang=en>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Begin Responsive JavaScript-->
+	<!--<script type="text/javascript" src="//cdnjs.cloudfare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
+	<script type="text/javascript">
+	$.fn.ready(function () {
+	//call fitText() function for the element you want to be fluid
+	$("footer".fitText(2, { 'minFontSize': 10vw, 'maxFontsize': 30vw });
+	//Font-size =1/10th of the element's width
+	});
+	</script>-->\
+	
+	<style type="text/css">
+				// Extra small devices (portrait phones, less than 576px)
+	@media(max-width: 575.98px) { 
+	.myText {
+	font-size: 20vw;
+	}
+}
+
+// Small devices (landscape phones, less than 768px)
+	@media(max-width: 767.98px) { 
+	.myText {
+	font-size: 20vw;
+	}
+}
+
+// Medium devices (tablets, less than 992px)
+	@media(max-width: 991.98px) { 
+	.myText {
+	font-size: 20vw;
+	}
+}
+
+// Large devices (desktops, less than 1200px)
+	@media(max-width: 1199.98px) { 
+	.myText {
+	font-size: 20vw;
+	}
+}
+	</style>
+<!--End Responsive JavaScript Addition-->
   <main><link rel="stylesheet" href="css/styles.css" />
 <header container="background">
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Alike+Angular|Asul|Concert+One|Eczar|Fruktur|Kavoon|Neuton|Raleway:100|Space+Mono|Tillana|Work+Sans" rel="stylesheet"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -35,7 +75,7 @@
             <h5><a class="dropdown-item" href="#project-doc" target="#" data-toggle="modal" id="project-link" >Technical Documentation</a></h5>
      </div>
           <div class="dropdown-divider"></div>
-          <a href="#devtools" class="dropdown-item">Developer SDK</a>
+          <a class="dropdown-item" href="#devtools">Developer SDK</a>
 		  <a href="https://www.linkedin.com/in/abrahamige/" class="dropdown-item">LinkedIn</a>
         </div>
       </li>
@@ -104,7 +144,23 @@
  
 }
 </style>
-</head><section><section id="project">
+</head><style>
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+</style><section><section id="project">
 <body><div class="project-tile">
   <!-- <h4><center>Animated Accordion</center></h4> -->
 <h7>Click on the buttons to open the collapsible content.</h7>
@@ -113,42 +169,28 @@
 <div class="panel" >pythonCaluclator.py
   <p><br>
   <b>DESCRIPTION:</b><br>
-  </p></br><p>Functional Calculator [ <a class="project-tile" href="https://github.com/retr03504/py_projects/blob/master/functionalCalculator.py">DOWNLOAD HERE</a> ]
+  </p>
+  </br>
+  <p>Functional Calculator [ <a class="project-tile" href="https://github.com/retr03504/py_projects/blob/master/functionalCalculator.py">DOWNLOAD HERE</a> ]</p><br></br>
 
-In this activity, you will be making a command-line calculator application. The application will ask the user what kind of arithmetic operation they would like to perform.<p>
-
-
-<i>Instructions:
-
-
-In this activity you are creating a command-line calculator application. When completed, the app should perform the following:
-
-
-Ask the user what kind of arithmetic operation they would like to use.
-
-
-Add two integers together if the user selects addition.
-
-
-Subtract two integers from one another if the user selects subtraction.
-
-
-Multiply two integers together if the user selects multiplication.
-
-
-Divide two integers by one another if the user select division.
-
-
-Ask the user if they'd like to play again. If yes, go back to asking what kind of operation they'd like to perform. If no, exit with a message saying "Thank you for playing!"
-
-
-Each of the arithmetic operations should be contained within functions that take in two integers as parameters.</i></p><br></br>
+<p><i>Instructions: In this activity you are creating a command-line calculator application. When completed, the app should perform the following:</i></p><br></br>
+	<ol style="font-size: 15px;color:white;">
+		<p>1. Ask the user what kind of arithmetic operation they would like to use.</p><br></br>
+		<p>2. Add two integers together if the user selects addition.</p><br></br>
+		<p>3. Subtract two integers from one another if the user selects subtraction.</p><br></br>
+		<p>4. Multiply two integers together if the user selects multiplication.</p><br></br>
+		<p>5. Divide two integers by one another if the user select division.</p><br></br>
+		<p>6. Ask the user if they'd like to play again. If yes, go back to asking what kind of operation they'd like to perform. If no, exit with a message saying "Thank you for playing!"</p><br></br>
+		<p>7. Each of the arithmetic operations should be contained within functions that take in two integers as parameters.</p>
+	</ol>
+</i>
+</p><br></br>
 
 </div>
 
 <button class="accordion">Tribute Page</button>
 <div id="project-acc" class="panel"><br>
-  <p><b>DESCRIPTION:</b><br>CURRENTLY IN DEVELOPEMENT.</p><br>
+  <p><b>DESCRIPTION:</b><br><i>CURRENTLY IN DEVELOPEMENT.</i></p><br>
 </div>
   
   <button class="accordion">Operative Initiative Form</button>
@@ -158,23 +200,16 @@ Each of the arithmetic operations should be contained within functions that take
 
 <button class="accordion">Quarts Product Landing Page</button>
 <div id="project-acc" class="panel"><br>
-  <p><b>DESCRIPTION:</b><br>LARQ's proprietary and patented PureVis™ UV-C LED technology is the most advanced in the world. We've done the science to help you drink brilliantly.
-    
-Eradicates up to 99.9999% of bacteria and 99.99% of viruses in Adventure Mode.
-<br><br>
-Chemical free | Non-toxic way to purify your water and bottle<br><br>
-
-Mercury & ozone free | World's only mercury-free portable water sanitization system<br><br>
-
-No replacement filters | One less thing to worry about so you can drink confidently<br><br>
-
-Power of the sun | When UV light is absorbed, it breaks the DNA's chemical bonds and kills the bacteria or virus
-280 nanometer UV light.<br><br>
-Is ideal to eradicate germs, triggering a photochemical reaction that destroys their DNA. UV-C light is widely used today in hospitals to sterilize patient room surfaces.<br><br>
-
-
-Linear Scale | Antimicrobial efficacy of the LARQ Bottle against E. coli
-This purpose of this study was to determine how effective a LARQ Bottle was at killing E. coli at 1-min, 2-min, and 3-min treatments. The LARQ Bottle yielded a log reduction of 3.72 and killed 99.9775% of E.coli at 1 minute. The LARQ Bottle yielded a log reduction of 5.66 and killed 99.9998% of E. coli at 2 minutes. The LARQ Bottle yielded a log reduction of 6.08 and killed 99.9999% of E. coli at 3 minutes.</p><br>
+  <p><b>DESCRIPTION: </b><i>LARQ's proprietary and patented PureVis™ UV-C LED technology is the most advanced in the world. We've done the science to help you drink brilliantly.</i></p><br></br>
+	<p>Eradicates up to 99.9999% of bacteria and 99.99% of viruses in Adventure Mode.</p><br><br>
+	<p>Chemical free | Non-toxic way to purify your water and bottle</p><br><br>
+	<p>Mercury & ozone free | World's only mercury-free portable water sanitization system</p><br><br>
+	<p>No replacement filters | One less thing to worry about so you can drink confidently</p><br><br>
+	<p>Power of the sun | When UV light is absorbed, it breaks the DNA's chemical bonds and kills the bacteria or viruses.</p><br><br>
+	<p>280 nanometer UV light is ideal to eradicate germs, triggering a photochemical reaction that destroys their DNA.</p><br><br>
+	<p>I UV-C light is widely used today in hospitals to sterilize patient room surfaces.</p><br><br>
+	<p>Linear Scale | Antimicrobial efficacy of the LARQ Bottle against E. coli.<br></br>
+	<p>This purpose of this study was to determine how effective a LARQ Bottle was at killing E. coli at 1-min, 2-min, and 3-min treatments. The LARQ Bottle yielded a log reduction of 3.72 and killed 99.9775% of E.coli at 1 minute. The LARQ Bottle yielded a log reduction of 5.66 and killed 99.9998% of E. coli at 2 minutes. The LARQ Bottle yielded a log reduction of 6.08 and killed 99.9999% of E. coli at 3 minutes.</p><br></br>
 </div>
   </div>
   <button class="accordion">Technical Documentation</button>
@@ -207,16 +242,17 @@ for (i = 0; i < acc.length; i++) {
       <br> -->
 </section>
 </article></article> 
- 
- <article container="Skills" id="Skills"><a name="devtools"><br><br>
-   <h4 id="devbox">DEVELOPER TOOLBOX</h4><br>
-    <p class="myText"><br><br><br><br><br/><br></br>
-    <ul ><b>LANGUAGES:</b> Python 3.7.4, HTML5, JavaScript ES6, CSS3, Microsoft Visual Basic for Macros, C++
-      <br><br><b>DATABASES:</b> Microsoft SQL Server Management Studio 2019+, Oracle SQL Developer, Dell – Toad, & MySQL
-           <br><br><b>APPLICATIONS:</b> Power BI, SSRS/Report Builder 3.0, SAP, Putty (SSH-Terminal) & knowledge of System Center Configuration Manager (SCCM)</a>
-           <br><br><b>OTHER:</b> Apache 2.0, PHP, Project Management, Bootstrap, Applied Requirements Gathering Strategies, ETL & Data Analysis
-           <br><br><br><br><center><img class="image-blurred-edge" src="https://images.youracclaim.com/images/54fb7539-513a-4475-9eeb-9fa629792abc/cybersecurity_badges_blue_600x600.png" height="100 " width="100" /></center>
-           <ul>
+ <!--DO NOT ADD ANYTHING AFTER THE ABOVE ARTICLE TAG. AN UNWANTED GAP WILL APPEAR BETWEEN ARTICLE SECTIONS - Date: 05.18.2020-->
+ <article container="Skills" id="devtools"><a name="devtools"><br></br><br></br>
+   <h4 class="section" id="devbox"><center>DEVELOPER TOOLBOX</center></h4><br>
+    <p class="myText"><br><br><br><br><br/><br></br><center>
+    <ul>
+		<b>LANGUAGES:</b> Python 3.7.4, HTML5, JavaScript ES6, CSS3, Microsoft Visual Basic for Macros, C++<br><br>
+		<b>DATABASES:</b> Microsoft SQL Server Management Studio 2019+, Oracle SQL Developer, Dell – Toad, & MySQL<br><br>
+		<b>APPLICATIONS:</b> Power BI, SSRS/Report Builder 3.0, SAP, Putty (SSH-Terminal) & knowledge of System Center Configuration Manager (SCCM)</a><br><br>
+		<b>OTHER:</b> Apache 2.0, PHP, Project Management, Bootstrap, Applied Requirements Gathering Strategies, ETL & Data Analysis<br><br><br><br>
+		<center><img class="image-blurred-edge" src="https://images.youracclaim.com/images/54fb7539-513a-4475-9eeb-9fa629792abc/cybersecurity_badges_blue_600x600.png" height="100 " width="100" /></center>
+           </ul>
         <p>
              </article>
         <article name="contactsection" container="info" id="contact"><center></center><br><br><br><br>
