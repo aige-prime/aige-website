@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,700italic,800);
 
 html {   
-  background-repeat: no-repeat;
   box-shadow: inset 5 4 2 5000px solid;
   scroll-behavior: smooth;
 }
@@ -9,9 +8,9 @@ html {
 body {
   background-image: url("https://www.magna5global.com/wp-content/uploads/2019/04/servers-blue-background.png");
   /*background-image: url("https://www.magna5global.com/wp-content/uploads/2019/04/servers-blue-background.png") https://ak6.picdn.net/shutterstock/videos/22579516/thumb/1.jpg; */
-  background-position: center top;
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: 100% 0 center top;
   background-repeat: no-repeat;
   background-color: 101, 156, 52;
 /*padding-top: auto;
@@ -23,21 +22,21 @@ body {
   padding-top: auto;
   padding-left:auto;
   padding-right:auto;
-  padding-bottom: auto; 
- overflow-y: hidden;
+  padding-bottom: auto;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 
 article > h4 {
   font-family: 'Angular', sans-serif;
   color: white;
-  font-size: 24px;
+  font-size: 24vw;
   letter-spacing: 0px;
   padding-left: 70px;
   padding-right: 70px;
+  
 
 }
-
 
 #UL {
   font-family: 'Raleway', san-serif;
@@ -139,9 +138,9 @@ footer {
   }
 
 #links {
-		float: right;
-		font-size: 30px;
-		margin-right: 20px;
+	float: right;
+	font-size: 30px;
+	margin-right: 20px;
 }
 
 p {
@@ -156,22 +155,16 @@ p {
 }
 
 #navbar{
-    top: 0px;
-    width: 41%;
+  top: 0px;
+  width: 41%;
 }
 
 #navbar:after {
-    clear: both;
-    display: block;
+  clear: both;
+  display: block;
     }
 
-@media only screen and (max-width: 600px) {
-    #navbar {
-		display: inline-block;
-        float: none;
-    }
-}
-
+@media only screen and (max-width: 600px) {#navbar {display: inline-block;float: none;}}
 
 #project-acc {
     text-align: left;
@@ -201,75 +194,23 @@ font-family: 'Work Sans', sans-serif;
   padding-left: 100px;
   padding-right: 100px;
 }
- 
- /*Media Queries for Responsive Design*/
- // Mobile devices (landscape phones, less than 480)
-@media only screen and (max-width: 480px){ 
-#main > footer{
-	display: inline-block;
-	font-size: 14px;
-		}
-	}
-// Smallest devices (landscape phones, less than 768px)
-@media only screen and (max-width: 500px){ 
-#main > footer{
-	display: inline-block;
-	font-size: 14px;
-		}
-	}
-// Smaller devices (landscape phones, less than 768px)
-@media only screen and (max-width: 570px){ 
-#main > footer{
-	display: inline-block;
-	font-size: 15px;
-		}
-	}
-// Small devices (tablets, less than 992px)
-@media only screen and (max-width: 620px){ 
-#main > footer{
-	display: inline-block;
-	font-size: 16px;
-		}
-	}
-// Medium devices (desktops, less than 1200px)
-@media only screen and (max-width: 680px){ 
-#main > footer{
-	display: inline-block;
-	font-size: 17px;
-		}
-	}
-// Tablet devices (landscape phones, less than 768px)
-@media only screen and (max-width: 720px){ 
-#main > footer{
-	display: inline-block;
-	font-size: 18px;
-		}
-	}
-// Large devices (landscape phones, less than 768px)
-@media only screen and (max-width: 800px){ 
-#main > footer{
-	display: inline-block;
-	font-size: 19px;
-		}
-	}
-// Larger devices (tablets, less than 992px)
-@media only screen and (max-width: 860px){ 
-#main > footer{
-	display: inline-block;
-	font-size: 20px;
-		}
-	}
-// Big devices (desktops, less than 1200px)
-@media only screen and (max-width: 920px){ 
-#main > footer{
-	display: inline-block;
-	font-size: 21px;
-		}
-	}
-// Largeest devices (desktops, less than 1200px)
-@media only screen and (max-width: 1000px){ 
-#main > footer{
-	display: inline-block;
-	font-size: 22px;
-		}
-	}
+
+.accordion {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+
+@media only screen and (min-width: 320px) {
+
+   .myText { 
+      font-size: 2vw;
+	  padding-left: 50%;
+	  padding-right: 50%;
+   }
+
+	.myText {
+		font-size: 2vh;
+		padding-left: 50px;
+		padding-right: 50px;
+}
