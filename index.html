@@ -16,16 +16,15 @@
 <header container="background">
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Alike+Angular|Asul|Concert+One|Eczar|Fruktur|Kavoon|Neuton|Raleway:100|Space+Mono|Tillana|Work+Sans" rel="stylesheet"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark text-white">
   <a name="#" class="navbar-brand" id="navbar" href="#"> ABRAHAM IGE <\> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div name="aboutme-section" class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" id="welcome" href="#About">About Me<span class="sr-only">(current)</span></a>
+        <a class="nav-link" id="welcome" href="#About">About<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#"></a>
@@ -37,8 +36,8 @@
           <!-- <a class="project-tile" href="https://www.codepen.io/ai_devspace_codepen/"> -->
           </a><div id="nav-links"> 
           <a class="dropdown-divider" >
-            <h5 class="dropdown-item" href="#project-pycalc" data-toggle="modal" id="project-link">Python Calculator</h5>  
-            <h5><a class="dropdown-item" href="#project-tribute" target="#" data-toggle="modal" id="project-link" >Tribute Page </a></h5>
+            <h5 class="dropdown-item" href="#project-pycalc" data-toggle="modal" id="project-link">Python Calculator</h5>
+            <h5><a class="dropdown-item" href="#project-tribute" target="#" data-toggle="modal" id="project-link" >Tribute Page</a></h5>
             <h5><a class="dropdown-item" href="/pages/operative.html" target="#" data-toggle="modal" id="project-link" >Operative Initiative Form</a></h5>
             <h5><a class="dropdown-item" href="#project-product" target="#" data-toggle="modal" id="project-link" >Quarts Product Landing Page</a></h5>
             <h5><a class="dropdown-item" href="#project-doc" target="#" data-toggle="modal" id="project-link" >Technical Documentation</a></h5>
@@ -87,55 +86,57 @@
     <section id="projects">
       <h4 name="project-block" id="project-acc" style="font-size:40px"><center>Projects</center><br></h4>
       <style>
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: blue;
-  font-size: 18px;
-  transition: 0.4s;
-  
-}
+	  
+		.accordion {
+		  background-color: #eee;
+		  color: #444;
+		  cursor: pointer;
+		  padding: 18px;
+		  width: 100%;
+		  border: none;
+		  text-align: left;
+		  outline: blue;
+		  font-size: 18px;
+		  transition: 0.4s;
+		  
+		}
 
-.active, .accordion:hover {
-  background-color: #ccc;
-   padding-left: 30px;
-  padding-right: 5px;
-  padding-right: 5px;
-  color: blue;
-}
+		.active, .accordion:hover {
+		  background-color: #ccc;
+		   padding-left: 30px;
+		  padding-right: 5px;
+		  padding-right: 5px;
+		  color: blue;
+		}
 
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  
+		.panel {
+		  padding: 0 18px;
+		  background-color: white;
+		  max-height: 0;
+		  overflow: hidden;
+		  transition: max-height 0.2s ease-out;
+		  
+		}
+		</style>
+</head>
+		<style>
+		ul.a {
+		  list-style-type: circle;
+		}
 
-}
-</style>
-</head><style>
-ul.a {
-  list-style-type: circle;
-}
+		ul.b {
+		  list-style-type: square;
+		}
 
-ul.b {
-  list-style-type: square;
-}
+		ol.c {
+		  list-style-type: upper-roman;
+		}
 
-ol.c {
-  list-style-type: upper-roman;
-}
-
-ol.d {
-  list-style-type: lower-alpha;
-}
-</style><section><section id="project">
+		ol.d {
+		  list-style-type: lower-alpha;
+		}
+		</style>
+<section><section id="project">
 <body><div class="project-tile">
   <!-- <h4><center>Animated Accordion</center></h4> -->
 <h7>Click on the buttons to open the collapsible content.</h7>
@@ -150,13 +151,13 @@ ol.d {
 
 <p><i>Instructions: In this activity you are creating a command-line calculator application. When completed, the app should perform the following:</i></p><br></br>
 	<ol style="font-size: 15px;color:white;">
-		<p>1. Ask the user what kind of arithmetic operation they would like to use.</p><br></br>
-		<p>2. Add two integers together if the user selects addition.</p><br></br>
-		<p>3. Subtract two integers from one another if the user selects subtraction.</p><br></br>
-		<p>4. Multiply two integers together if the user selects multiplication.</p><br></br>
-		<p>5. Divide two integers by one another if the user select division.</p><br></br>
-		<p>6. Ask the user if they'd like to play again. If yes, go back to asking what kind of operation they'd like to perform. If no, exit with a message saying "Thank you for playing!"</p><br></br>
-		<p>7. Each of the arithmetic operations should be contained within functions that take in two integers as parameters.</p>
+	<p>1. Ask the user what kind of arithmetic operation they would like to use.</p><br></br>
+	<p>2. Add two integers together if the user selects addition.</p><br></br>
+	<p>3. Subtract two integers from one another if the user selects subtraction.</p><br></br>
+	<p>4. Multiply two integers together if the user selects multiplication.</p><br></br>
+	<p>5. Divide two integers by one another if the user select division.</p><br></br>
+	<p>6. Ask the user if they'd like to play again. If yes, go back to asking what kind of operation they'd like to perform. If no, exit with a message saying "Thank you for playing!"</p><br></br>
+	<p>7. Each of the arithmetic operations should be contained within functions that take in two integers as parameters.</p>
 	</ol>
 </i>
 </p><br></br>

@@ -34,26 +34,26 @@ article > h4 {
   letter-spacing: 0px;
   padding-left: 70px;
   padding-right: 70px;
-  
-
+  text-justify: auto;
 }
 
 #UL {
   font-family: 'Raleway', san-serif;
   color: white;
   text-shadow: .5px 5px 3px #000000;
-
 }
 
 h1 {
   font-family: 'Raleway', sans-serif;
   color: white;
   text-shadow: .5px 5px 3px #000000;
+  text-justify: auto;
 }
 
 h2 {
   font-family: 'Work Sans', sans-serif;
   font-size: 24px;
+  text-justify: auto;
 } 
 
 /* DO NOT FORMAT OR CHANGE -- h3 block is a container with locked transparency*/
@@ -61,6 +61,7 @@ h3 {
   font-family: 'Roboto', sans-serif;
   color: white;
   text-shadow: .5px .5px .5px #000000;
+  text-justify: auto;
 }
 
 #project-link {
@@ -114,6 +115,7 @@ ul {
 #About {
   font-size: 40px;
   text-align: center;
+  text-justify: auto;
 }
 
 project {
@@ -134,35 +136,41 @@ footer {
   background-color:;
   overflow-y: hidden;
   overflow-x: hidden;
-
   }
 
 #links {
 	float: right;
 	font-size: 30px;
 	margin-right: 20px;
+	color: white;
 }
 
 p {
 	float: left;
 	margin-left: 20px;
     color: black;
-	}
+}
 
 #welcome-section {
   min-height: 60vh;
   padding-top: 40vh;
 }
 
-#navbar{
+#navbar {
   top: 0px;
-  width: 41%;
+  width: 39%;
+  color: white;
 }
 
 #navbar:after {
   clear: both;
   display: block;
-    }
+  color: white;
+}
+
+.nav-link {
+	color: white;
+}
 
 @media only screen and (max-width: 600px) {#navbar {display: inline-block;float: none;}}
 
@@ -175,8 +183,23 @@ p {
   font-size: 20px;
   text-align-last: left;
   offset: 40%;
+  text-justify: auto;
 }
-  
+ 
+ 
+#welcome {
+	color: white;
+}
+ 
+ 
+#projects {
+	color: white;
+}
+ 
+#contact-page {
+	color: white;
+}
+
 /*Slides CSS*/
 .contact-slide {
   display: inline-block;
@@ -207,10 +230,12 @@ font-family: 'Work Sans', sans-serif;
       font-size: 2vw;
 	  padding-left: 50%;
 	  padding-right: 50%;
+	  text-justify: auto;
    }
 
 	.myText {
 		font-size: 2vh;
 		padding-left: 50px;
 		padding-right: 50px;
+		text-justify: auto;
 }
