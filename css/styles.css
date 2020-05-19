@@ -11,7 +11,7 @@ body {
   /*background-image: url("https://www.magna5global.com/wp-content/uploads/2019/04/servers-blue-background.png") https://ak6.picdn.net/shutterstock/videos/22579516/thumb/1.jpg; */
   background-position: center top;
   background-attachment: fixed;
-  background-size: scroll;
+  background-size: cover;
   background-color: 101, 156, 52;
 /*padding-top: auto;
   padding-left: auto;
