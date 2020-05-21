@@ -4,9 +4,10 @@ body {
   color: white;
   text-shadow: 1px 1px 1px #000000;
   background-image: url('https://cdn.dribbble.com/users/110372/screenshots/3845499/location_tracker.gif');
-      background-repeat: no-repeat;
-      background-size: cover;
-  
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 100% 0 center top;
+  background-repeat: no-repeat;
 }
 
 #outside {
@@ -31,8 +32,9 @@ form {
   padding: 1em;
   border: 1px solid black;
   border-radius: 1em;
-  background-image: url('https://cdn.dribbble.com/users/110372/screenshots/3845499/location_tracker.gif');
-    background-repeat: no-repeat;
+  /*background-image: url('https://cdn.dribbble.com/users/110372/screenshots/3845499/location_tracker.gif');*/
+  background-color: black;
+  background-repeat: no-repeat;
   background-size: cover;
   opacity: 90%;
 }
