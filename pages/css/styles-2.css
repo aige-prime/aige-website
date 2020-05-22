@@ -3,11 +3,10 @@ body {
   font-size: 1.2em;
   color: white;
   text-shadow: 1px 1px 1px #000000;
-  background-image: url('https://cdn.dribbble.com/users/110372/screenshots/3845499/location_tracker.gif');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 100% 0 center top;
-  background-repeat: no-repeat;
+  background-image: url('https://i.pinimg.com/originals/1d/73/5a/1d735ad8eee8350adc96d50e1421ee6d.gif');
+      background-repeat: no-repeat;
+      background-size: cover;
+  
 }
 
 #outside {
@@ -31,10 +30,10 @@ form {
   /* To see the limits of the form */
   padding: 1em;
   border: 1px solid black;
-  border-radius: 1em;
-  /*background-image: url('https://cdn.dribbble.com/users/110372/screenshots/3845499/location_tracker.gif');*/
   background-color: black;
-  background-repeat: no-repeat;
+  border-radius: 1em;
+  background-image: url('https://i.pinimg.com/originals/1d/73/5a/1d735ad8eee8350adc96d50e1421ee6d.gif');
+    background-repeat: no-repeat;
   background-size: cover;
   opacity: 90%;
 }
