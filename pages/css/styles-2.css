@@ -3,10 +3,10 @@ body {
   font-size: 1.2em;
   color: white;
   text-shadow: 1px 1px 1px #000000;
-  background-image: url('https://i.pinimg.com/originals/1d/73/5a/1d735ad8eee8350adc96d50e1421ee6d.gif');
-      background-repeat: no-repeat;
-      background-size: cover;
-  
+  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/914665966092621957/D8DF127D5BC426A8089B269FC1902B63C1673063/');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
 }
 
 #outside {
@@ -32,8 +32,8 @@ form {
   border: 1px solid black;
   background-color: black;
   border-radius: 1em;
-  background-image: url('https://i.pinimg.com/originals/1d/73/5a/1d735ad8eee8350adc96d50e1421ee6d.gif');
-    background-repeat: no-repeat;
+  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/914665966092621957/D8DF127D5BC426A8089B269FC1902B63C1673063/');
+  background-repeat: no-repeat;
   background-size: cover;
   opacity: 90%;
 }
@@ -46,7 +46,7 @@ form {
 fieldset { 
   border: 1px solid lightgray;
   margin: 10px;
-  border-radius: 2px;
+  border-radius: 25px;
  }
 
 legend {
@@ -110,7 +110,7 @@ button {
   margin: .5em;
   font-size: .7em;
   text-transform: capitalize;
-  background-color: #cc3300;
+  background-color: green;
   color: white;
   border: none;
   padding: 10px;
@@ -134,4 +134,20 @@ button {
   font-size: .7em;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+@media only screen and (min-width: 320px) {
+
+  .myText { 
+    font-size: 2vw;
+	  padding-left: 50%;
+	  padding-right: 50%;
+	  text-justify: auto;
+   }
+
+	.myText {
+		font-size: 2vh;
+		padding-left: 50px;
+		padding-right: 50px;
+		text-justify: auto;
 }
