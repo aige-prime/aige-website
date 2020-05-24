@@ -6,7 +6,7 @@ body {
   background-image: url('https://steamuserimages-a.akamaihd.net/ugc/914665966092621957/D8DF127D5BC426A8089B269FC1902B63C1673063/');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: fixed;
 }
 
 #outside {
@@ -46,7 +46,7 @@ form {
 fieldset { 
   border: 1px solid lightgray;
   margin: 10px;
-  border-radius: 25px;
+  border-radius: 2px;
  }
 
 legend {
