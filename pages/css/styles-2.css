@@ -3,10 +3,11 @@ body {
   font-size: 1.2em;
   color: white;
   text-shadow: 1px 1px 1px #000000;
-  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/914665966092621957/D8DF127D5BC426A8089B269FC1902B63C1673063/');
+  background-image: url('https://images.squarespace-cdn.com/content/v1/51be3e56e4b09edc5f81e74c/1551795622591-1FBFE410OXSXACYA5C8Q/ke17ZwdGBToddI8pDm48kFTEgwhRQcX9r3XtU0e50sUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc2PPwcWkLXq-DNe4zpT7he0M_zRUr6912vvtObYWjAW-pUdJURR5nHbHpk7AZw8X9/SciFi_WaspYellow.gif?format=1500w');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: fixed;
+  background-position: top center;
+  background-attachment: fixed;
 }
 
 #outside {
@@ -32,9 +33,11 @@ form {
   border: 1px solid black;
   background-color: black;
   border-radius: 1em;
-  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/914665966092621957/D8DF127D5BC426A8089B269FC1902B63C1673063/');
+  background-image: url('https://images.squarespace-cdn.com/content/v1/51be3e56e4b09edc5f81e74c/1551795622591-1FBFE410OXSXACYA5C8Q/ke17ZwdGBToddI8pDm48kFTEgwhRQcX9r3XtU0e50sUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc2PPwcWkLXq-DNe4zpT7he0M_zRUr6912vvtObYWjAW-pUdJURR5nHbHpk7AZw8X9/SciFi_WaspYellow.gif?format=1500w');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
   opacity: 90%;
 }
 
