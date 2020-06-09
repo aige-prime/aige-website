@@ -89,7 +89,7 @@ input, textarea {
 
 input:focus, textarea:focus {
   /* To give a little highligh on active elements */
-  border-color: green;
+  border-color: red;
 }
 
 textarea {
@@ -113,7 +113,7 @@ button {
   margin: .5em;
   font-size: .7em;
   text-transform: capitalize;
-  background-color: green;
+  background-color: red;
   color: white;
   border: none;
   padding: 10px;
