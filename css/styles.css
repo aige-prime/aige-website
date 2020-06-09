@@ -19,12 +19,16 @@ body {
 	  padding-bottom: auto; */
   -webkit-filter: blur(400%);
   filter: blur(500%);
-  padding-top: auto;
+  /*padding-top: auto;
   padding-left:auto;
   padding-right:auto;
-  padding-bottom: auto;
+  padding-bottom: auto;*/
   overflow-y: hidden;
   overflow-x: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 article > h4 {
@@ -185,13 +189,11 @@ p {
   offset: 40%;
   text-justify: auto;
 }
- 
- 
+  
 #welcome {
 	color: white;
 }
- 
- 
+  
 #projects {
 	color: white;
 }
@@ -222,7 +224,6 @@ font-family: 'Work Sans', sans-serif;
 	padding-left: 70px;
 	padding-right: 70px;
 }
-
 
 @media only screen and (min-width: 320px) {
 
