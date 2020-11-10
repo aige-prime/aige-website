@@ -150,7 +150,8 @@ footer {
 }
 
 p {
-	float: left;
+	float: ;
+	justify-content: left;
 	margin-left: 20px;
     color: black;
 }
@@ -162,7 +163,7 @@ p {
 
 #navbar {
   top: 0px;
-  width: 39%;
+  width: 41.8%;
   color: white;
 }
 
