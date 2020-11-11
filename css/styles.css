@@ -13,10 +13,10 @@ body {
   background-position: center top;
   background-repeat: no-repeat;
   background-color: 101, 156, 52;
-	/*padding-top: auto;
-	  padding-left: auto;
-	  padding-right: auto;
-	  padding-bottom: auto; */
+	padding-top: auto;
+	padding-left: auto;
+	padding-right: auto;
+	padding-bottom: auto;
   -webkit-filter: blur(400%);
   filter: blur(500%);
   /*padding-top: auto;
