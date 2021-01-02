@@ -1,6 +1,16 @@
-<!--DOCTYPE HTML5 | Developer: Abraham Ige xml.BUILD.2020.04.10.003-->
+<!--DOCTYPE HTML5 | Developer: Abraham Ige xml.BUILD.2021.01..2020.04.10.003-->
 
 <html lang=en>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NJRT5ZBLT3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NJRT5ZBLT3');
+</script>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <!--Begin Responsive JavaScript-->
 	<!--<script type="text/javascript" src="//cdnjs.cloudfare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
@@ -16,8 +26,8 @@
 <header container="background">
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Alike+Angular|Asul|Concert+One|Eczar|Fruktur|Kavoon|Neuton|Raleway:100|Space+Mono|Tillana|Work+Sans" rel="stylesheet"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-white">
-  <a name="#" class="navbar-brand" id="navbar" href="#"><i class='	fas fa-user-circle' style='font-size:20px;color:white'></i>   		ABRAHAM IGE  </a>
+  <nav class="navbar fixed-top navbar-expand-lg text-white" style="background-color: #141c1b;">
+  <a name="#" class="navbar-brand" id="navbar" href="#"><i class='	fas fa-user-circle' style='font-size:20px;color:white'></i>   ABRAHAM IGE  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <!--<span class="navbar-toggler-icon"></span>-->
   </button>
@@ -36,9 +46,9 @@
           <!-- <a class="project-tile" href="https://www.codepen.io/ai_devspace_codepen/"> -->
           </a><div id="nav-links"> 
           <a class="dropdown-divider" >
-            <h5 class="dropdown-item" href="https://github.com/retr03504/py_projects/blob/master/functionalCalculator.py" data-toggle="modal" id="project-link">Python Calculator</h5>
+            <!--<h5 class="dropdown-item" href="https://github.com/retr03504/py_projects/blob/master/functionalCalculator.py" data-toggle="modal" id="project-link">Python Calculator</h5>-->
             <h5><a class="dropdown-item" href="#project-tribute" target="#" data-toggle="modal" id="project-link" >Mastering Your Cybersecurity Certification</a></h5>
-            <h5><a class="dropdown-item" href="/pages/operative.html" target="#" data-toggle="modal" id="project-link" >Technical Documentation</a></h5>
+            <!--<h5><a class="dropdown-item" href="/pages/operative.html" target="#" data-toggle="modal" id="project-link" >Technical Documentation</a></h5>-->
             <h5><a class="dropdown-item" href="#project-product" target="#" data-toggle="modal" id="project-link" >LARQ's™ Water Bottle</a></h5>
             <h5><a class="dropdown-item" href="#project-doc" target="#" data-toggle="modal" id="project-link" >Subscribe</a></h5>
      </div>
@@ -78,16 +88,19 @@
   
         span::before { 
             content: "Geeks"; 
-            animation: animate infinite 38s; 
+            animation: changeLetter linear infinite 38s; 
             padding-left: 10px;
-          
         } 
-   
-        @keyframes animate { 
+		
+	     @keyframes changeLetter { 
   0% { content:"an Integration Engineer"; }
-  40% { content:"a Web Developer"; }
+   20% {  color: white; }
+  35% { content:"a Web Developer"; }
+   45% {  color: white; }
   50% { content:"a Data Analyst"; }
+   60% {  color: white; }
   75% { content:"a Google IT Support Professional"; }
+   90% {  color: white; }
   100% { content:"a Cybersecurity Specialist"; }
 }
     
@@ -190,7 +203,7 @@
 
 <button class="accordion">Mastering Your Cybersecurity Certification</button>
 <div id="project-acc" class="panel"><br>
-  <p><b>DESCRIPTION:</b><br>CURRENTLY IN DEVELOPEMENT.</p><br>
+  <p><b>DESCRIPTION:</b><br><p>What are Stackable Certifications? Basic Terminology, Concepts, & Strategies for passing the Exam. How they can add Value to your career with <i>Supplemental Resources.<i></p><p><i>Stackable Certifications What are Stackable Certifications? Stackable certifications demonstrate that you’ve earned multiple CompTIA certifications and have the knowledge and experience needed to grow your IT career. They validate the skills of various IT roles and show a deeper mastery, opening up more job opportunities for you. Stackable certifications require active CE certifications.</i></p><br>
   <p><b>SOURCE: </b>GitHub Project</p>
 </div>
   
@@ -225,6 +238,8 @@
 </div>
 
 <script>
+//Accordion project JS Function with details from class = "accordion"
+//Reference script
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -379,7 +394,7 @@ This site has been scanned for viruses and malware, and may have been automatica
     
     	<div id="links">
     <a href="mailto:abraham.ige@gmail.com"><i class="fa fa-envelope"></i></a>
-    <a href="https://ai_devspace_codepen/"><i class='fab'>&#xf1cb</i></a>
+    <a href="#"><i class='fab'>&#xf1cb</i></a>
     <a href="https://github.com/retr03504"><i class='fab'>&#xf09b</i></a>
 	</div>
     <br>
