@@ -153,7 +153,8 @@ footer {
 p {
 	float: ;
 	justify-content: left;
-	margin-left: 20px;
+	margin-left: 75px;
+	margin-right: 75px;
     color: black;
 }
 
