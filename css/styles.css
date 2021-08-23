@@ -7,7 +7,10 @@ html {
 	
 body {
   background-image: url("https://i.pinimg.com/originals/93/2d/ac/932dac29bcee119b9efeadef7dd12c74.gif");
-  /*background-image: url("https://wallpapercave.com/wp/wp2757834.gif; ") */
+  /*background-image: url("https://gifimage.net/wp-content/uploads/2017/10/discord-gif-emoji-3.gif");*/
+  /*background-image: url("https://media1.giphy.com/media/gh0RRgkTXedvF0pDc0/giphy.gif?cid=ecf05e473zwlu2p24opzbca488fy0vmqtc75va1dwhr3mv5y&rid=giphy.gif&ct=g");*/
+  /*background-image: url("https://i.pinimg.com/originals/93/2d/ac/932dac29bcee119b9efeadef7dd12c74.gif") */
+  /*background-image: url("https://wallpapercave.com/wp/wp2757834.gif;") */
   /*background-image: url("https://ak6.picdn.net/shutterstock/videos/22579516/thumb/1.jpg; ") */
   background-size: cover;
   background-attachment: fixed;
@@ -153,9 +156,10 @@ footer {
 p {
 	float: ;
 	justify-content: left;
-	margin-left: 45px;
-	margin-right: 45px;
+	margin-left: 10px;
+	margin-right: 10px;
     color: black;
+	margin: auto;
 }
 
 #welcome-section {
@@ -232,9 +236,12 @@ font-family: 'Work Sans', sans-serif;
 
    .myText { 
       font-size: 2vw;
-	  padding-left: 50%;
-	  padding-right: 50%;
-	  text-justify: auto;
+	  padding-left: 70px;
+	  padding-right: 70px;
+	  text-justify: center;
+	  margin-left: 5px;
+	  margin-right: 5px;
+	  justify-content:center;width:825px auto;word-wrap: break-word;
    }
 
 	.myText {
@@ -242,4 +249,7 @@ font-family: 'Work Sans', sans-serif;
 		padding-left: 50px;
 		padding-right: 50px;
 		text-justify: auto;
+		margin-left: 5px;
+		margin-right: 5px;
+		justify-content:center;width:825px auto;word-wrap: break-word;
 }
