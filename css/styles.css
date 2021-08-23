@@ -228,10 +228,18 @@ font-family: 'Work Sans', sans-serif;
 }
 
 .accordion {
-	padding-left: 70px;
-	padding-right: 70px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
+
+.aboutMe_Box {
+	padding-left: auto;
+	padding-right: auto;
+	margin-left: 15%;
+	margin-right: 15%;
+	
+}
 @media only screen and (min-width: 320px) {
 
    .myText { 
