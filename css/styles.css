@@ -228,29 +228,25 @@ font-family: 'Work Sans', sans-serif;
 }
 
 .accordion {
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 
 @media only screen and (min-width: 320px) {
 
    .myText { 
-      font-size: 2vw;
-	  padding-left: 70px;
-	  padding-right: 70px;
+      font-size: 1vw;
+	  padding-left: auto;
+	  padding-right: auto;
 	  text-justify: center;
-	  margin-left: 5px;
-	  margin-right: 5px;
-	  justify-content:center;width:825px auto;word-wrap: break-word;
+	  justify-content:center;width:425px auto;word-wrap: normal;
    }
 
 	.myText {
 		font-size: 2vh;
-		padding-left: 50px;
-		padding-right: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
 		text-justify: auto;
-		margin-left: 5px;
-		margin-right: 5px;
-		justify-content:center;width:825px auto;word-wrap: break-word;
+		justify-content:center;width:425px auto;word-wrap: normal;
 }
