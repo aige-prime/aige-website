@@ -169,7 +169,10 @@ button {
 		
 	}
 	
+	
 }
+
+
 /* ==== The Feed - Cards using Bootstrap === */
 
 #cards .card {
@@ -195,6 +198,7 @@ button {
     margin-right: 150px;
 }
 
+/*The below is the rotatry css styling */
 #pre{
 
 	 display: flex; .
@@ -284,9 +288,9 @@ button {
 .content__container__text {
 	float: left;
 	margin: 0;
-	font-size: 30vw;
+	font-size: 1.75vw;
 	/*text-align: left;*/
-	margin-left: 150px;
+	margin-left: 140px;
 	justify-content: flex-start;
 	font-family: 'Lato', sans-serif;
 	white-space: nowrap; 
@@ -302,9 +306,10 @@ button {
 	position: hidden;
 	float: left;
 	display: inline-block;
-	margin-left: 395px;
+	margin-left: 385px;
 	overflow-wrap: normal;
-	white-space: nowrap; 
+	white-space: nowrap;
+	font-size: 1.75vw;
 	
 	-webkit-animation-name: change;
 	-webkit-animation-duration: 10s;
@@ -319,12 +324,12 @@ button {
 	min-width: 500px;
 	min-height: auto;
 	margin: 0;
-	font-size: 30px;
+	font-size: 1.75vw;
 	overflow: hidden;
 	position: hidden;
 	display: inline-block;
 	overflow-wrap: nowrap;
-	padding-right: 10px;
+	
 }
 
 
