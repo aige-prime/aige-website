@@ -161,13 +161,13 @@ button {
 		text-justify: auto;
 	}
 	
-	#footer .footer{
+	/*#footer .footer{
 		font-size: .025vw;
 		padding-left: .025vw;
 		padding-right: .025vw;
 		text-justify: auto;
 		
-	}
+	}*/
 	
 	
 }
@@ -331,6 +331,13 @@ button {
 	overflow-wrap: nowrap;
 	
 }
+
+
+/* ==========================================
+    FOR DEMO PURPOSE
+  ========================================== */
+
+
 
 
 /*KEYFRAMES: New Greeting*/
