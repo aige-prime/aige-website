@@ -181,9 +181,6 @@ p {
   color: white;
 }
 
-.nav-link {
-	color: white;
-}
 
 @media only screen and (max-width: 600px) {#navbar {display: inline-block;float: none;}}
 
