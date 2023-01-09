@@ -181,7 +181,7 @@ p {
   color: white;
 }
 
-
+/*Navbar Responsive Block*/
 @media only screen and (max-width: 600px) {#navbar {display: inline-block;float: none;}}
 
 #project-acc {
@@ -231,7 +231,7 @@ font-family: 'Work Sans', sans-serif;
 	padding-right: 20px;
 }
 
-
+/*Responsive CSS Triggers*/
 @media only screen and (min-width: 320px) {
 
    .myText { 
