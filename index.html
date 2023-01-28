@@ -34,10 +34,10 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle collapse" href="#" id="projects" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style='font-size:20px;color:white' style='font-size:20px;color:white;'>Projects</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <!-- <a class="project-tile" href="https://www.codepen.io/ai_devspace_codepen/"> -->
+            
           </a><div id="nav-links"> 
           <a class="dropdown-divider" >
-					<!--<h5 class="dropdown-item" href="https://github.com/retr03504/py_projects/blob/master/functionalCalculator.py" data-toggle="modal" id="project-link">Python Calculator</h5>-->
+					<!--<h5 class="dropdown-item" href="#" data-toggle="modal" id="project-link">Python Calculator</h5>-->
 					<!--<h5><a class="dropdown-item" href="/pages/operative.html" target="#" data-toggle="modal" id="project-link" >Technical Documentation</a></h5>-->
             <a class="dropdown-item coll" href="https://www.credly.com/badges/7fa0983e-4c44-4ce9-993c-fa6d9d3d31b9/public_url" id="project-link" >CompTIA® Security+ CE </a>
 			<a class="dropdown-item coll" href="https://www.credly.com/badges/5adcbcbe-9134-4046-bf1f-c2cceacf449f" id="project-link" >CompTIA® Network+ CE </a>
@@ -77,8 +77,75 @@
          
 		 
 <!--	OLD ROTARY	 -->
-						<h2 class="noselect">Hi, my name is</h2>
-					  <h1 id="name" style="font-size: clamp(24px, 8.5vw, 58px);">Abraham</h1>
+						<h2 class="noselect"></h2>
+					  <h1 id="name" style="font-size: clamp(24px, 8.5vw, 58px);"></h1><br><br>
+					  
+					  
+					<h2>
+					  <a class="typewrite"  style="color: white"data-period="2000" data-type='[ "Hi, my name is Abraham.", "Im a Security Analyst having a focus in data analysis.", "Im CompTIA® Security+ & Network+ certified.", "Right now, Im learning about cloud technologies & system architecture design.", "As you explore my page, feel free to connect with me about all things INFOSEC."]'>
+						<span class="wrap"></span>
+					  </a>
+					</h2>
+					
+					<script>
+					var TxtType = function(el, toRotate, period) {
+					this.toRotate = toRotate;
+					this.el = el;
+					this.loopNum = 0;
+					this.period = parseInt(period, 10) || 2000;
+					this.txt = '';
+					this.tick();
+					this.isDeleting = false;
+				};
+
+				TxtType.prototype.tick = function() {
+					var i = this.loopNum % this.toRotate.length;
+					var fullTxt = this.toRotate[i];
+
+					if (this.isDeleting) {
+					this.txt = fullTxt.substring(0, this.txt.length - 1);
+					} else {
+					this.txt = fullTxt.substring(0, this.txt.length + 1);
+					}
+
+					this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+					var that = this;
+					var delta = 200 - Math.random() * 100;
+
+					if (this.isDeleting) { delta /= 2; }
+
+					if (!this.isDeleting && this.txt === fullTxt) {
+					delta = this.period;
+					this.isDeleting = true;
+					} else if (this.isDeleting && this.txt === '') {
+					this.isDeleting = false;
+					this.loopNum++;
+					delta = 500;
+					}
+
+					setTimeout(function() {
+					that.tick();
+					}, delta);
+				};
+
+				window.onload = function() {
+					var elements = document.getElementsByClassName('typewrite');
+					for (var i=0; i<elements.length; i++) {
+						var toRotate = elements[i].getAttribute('data-type');
+						var period = elements[i].getAttribute('data-period');
+						if (toRotate) {
+						  new TxtType(elements[i], JSON.parse(toRotate), period);
+						}
+					}
+					// INJECT CSS
+					var css = document.createElement("style");
+					css.type = "text/css";
+					css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+					document.body.appendChild(css);
+				};
+					</script>
+					  
 				  <!--<style> 
 
 						h1 { 
@@ -115,7 +182,7 @@
   <!--<pre id="pre" style="font-size:28px;"></pre>-->
     
 		
-	<!--NEW 2022 GREETING ROTARY-->
+	<!--NEW WELCOME ROTARY-->
 	
 <!--		
 <link rel="stylesheet" href="css/greeting.css" type="text/css">
@@ -735,4 +802,4 @@ for (i = 0; i < acc.length; i++) {
   </footer>
 
 </div>
-<!-- End of Site-->
+<!-- End Site-->

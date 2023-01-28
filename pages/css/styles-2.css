@@ -108,6 +108,7 @@ textarea {
   resize: vertical;
 }
 
+
 .button {
   /* To position the buttons to the same position of the text fields */
   padding-left: 90px; /* same size as the label elements */
