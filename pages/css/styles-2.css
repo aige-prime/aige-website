@@ -149,14 +149,14 @@ button {
 
 @media only screen and (min-width: 410px) {
 
-  .myText .content{ 
+  .myText .content { 
     font-size: .05vw;
 	  padding-left: 40%;
 	  padding-right: 40%;
 	  text-justify: auto;
    }
 
-	.myText .content{
+	.myText .content {
 		font-size: 1vh;
 		padding-left: 40px;
 		padding-right: 40px;
@@ -171,6 +171,12 @@ button {
 		
 	}*/
 	
+	
+	/*Repsonsive Pointer to the Typerwriter welcome message*/
+	
+	.typewrite {
+		font-size: .25vw;
+	}
 	
 }
 

@@ -11,6 +11,24 @@
 
   gtag('config', 'G-NJRT5ZBLT3');
   </script>
+  <script>
+  
+	document.onkeydown = function(e) {
+		if(event.keyCode == 123) {
+		return false;
+		}
+		if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+		return false;
+		}
+		if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+		return false;
+		}
+		if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+		return false;
+		}
+	}
+  
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <main><link rel="stylesheet" href="css/styles.css" />
   
@@ -79,11 +97,11 @@
 <!--	MAIN ROTARY	 -->
 
 					<h2 class="noselect"></h2>
-					  <h1 id="name" style="font-size: clamp(24px, 8.5vw, 58px);"></h1><br><br>
+					  <!--<h1 id="name" style="font-size: clamp(24px, 8.5vw, 58px);"></h1><br><br>-->
 					  
 					  
 					<h2>
-					  <a class="typewrite"  style="color: white" data-period="2000" data-type='[ "Hi, my name is Abraham. ", "I&apos;m a Security Analyst having experience in data analysis. ", "I&apos;m CompTIA® Security+ & Network+ certified. ", "Right now, I&apos;m learning more about cybersecurity frameworks & cloud technologies. ", "As you explore the site, feel free to connect with me about all things INFOSEC. "]'>
+					  <a class="typewrite"  id="typewriter" style="color: white" data-period="2000" data-type='[ "Hi, my name is Abraham. ", "I&apos;m a Security Analyst having experience in data analysis. ", "I&apos;m CompTIA® Security+ & Network+ certified. ", "Right now, I&apos;m learning more about cybersecurity frameworks & cloud technologies. ", "As you explore the site, feel free to connect with me about all things INFOSEC. "]'>
 						<span class="wrap"></span>
 					  </a>
 					</h2>
@@ -149,61 +167,16 @@
 					</script>
 					  
 					  
-				  <!--<style> 
-
-						h1 { 
-							display: flex; 
-							justify-content: center; 
-							color: white;
-							font-size: 40px; 
-							
-						} 
-				  
-						pre::before { 
-							content: ""; 
-							animation: changeLetter linear infinite 39s; 
-							padding-left: 10px;
-						} 
-						
-						 @keyframes changeLetter { 
-				  0% { content:"& I'm an Integration Engineer"; }
-				   15% {  color: white; }
-				  35% { content:"& I'm CompTIA® Security+ Certified"; }
-				   45% {  color: white; }
-				  55% { content:"& I'm a Data Specialist"; }
-				   65% {  color: white; }
-				  75% { content:"& I'm a Google® IT Support Professional"; }
-				   90% {  color: white; }
-				  100% { content:"& I'm a Security Analyst"; }
-				}
-				
-
-
+			<!--BREAKKPOINT STARTER FOR NEW ROTARY-->
+			<!--ENDING BREAKPOINT FOR NEW ROTARY-->
+				 
     <!--THE BELOW "PRE" KEYS THE OLD ROTARY TITLES
     </style>-->
   <!--<h2>& I'm</h2>-->
   <!--<pre id="pre" style="font-size:28px;"></pre>-->
     
-		
 	<!--NEW WELCOME ROTARY-->
 	
-<!--		
-<link rel="stylesheet" href="css/greeting.css" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-
-<div class="content" >
-  <div class="content__container" >
-    <span class="content__container__text" id="content_container_text" style="margin-left: 25px;font-size:1.75vw;">
-      Hello, I'm Abraham Ige & I'm:
-    </span>
-    <ul class="content__container__list" id="content_container_list_01" style="margin-left: 450px;overflow: hidden; position: hidden;white-space: nowrap;">
-      <li class="content__container__list__item"> CompTIA® Security+ Certified</li>
-      <li class="content__container__list__item"> a Security Analyst</li>
-      <li class="content__container__list__item"> an Integration Engineer</li>
-      <li class="content__container__list__item">Google® IT Support Professional</li>
-     </ul>
-  </div>
-</div>-->
 	<!--BREAKPOINT-->
       </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <article container="info" id="About"></article>
@@ -282,7 +255,7 @@
 <div class="panel" >pythonCaluclator.py<p>
   <b>DESCRIPTION:</b>
   </p>
-  <p>Functional Calculator <a class="project-tile" href="https://github.com/aige-prime/py_projects/blob/master/functionalCalculator.py">
+  <p>Functional Calculator <a class="project-tile" href="##">
 <style>
 .button {
   display: inline-block;
@@ -365,14 +338,13 @@
 <br></br><i>
 "One of the most important strategies was making sure to take as many practice Performance-Based Questions (PBQ's) and practice exams prior to the exam. There's a flow state that you should aim to reach when taking the exam. This will help you gauge where you are especially if you're hitting 90% consistently on the practice exams which is the goal you'll want to reach right before your scheduled exam. It took me (2) days to get out of this flow state after taking the exam (I was locked in & the material is dense). I actually felt like I could start studying for another exam like Network+ or CySA+ immediately after but keep in mind, it's extremely important to pace yourself and get enough sleep." </i>
 <br></br><!--<i>
-"The problem sets in Darrill Gibson course are perfect. One thing I would also recommend is not giving up - I originally scored a 714 on my first attempt (so close...) but the second time around, I finally passed with a 774; +(60pts)! Stay postive and stay locked in! The lessons learned from that first attempt was that I didn't focus on practicing how to actually work through the PBQ's and when it came time to take the exam...I completely ran out of time. I found myself trying to figure out the mechanics of how to solve them which caused me to leave many fields blank. </i>
-<br></br><i>-->
+
 "Using the printout provided by the testing center following the exam, I was able to find my trouble areas and hone in on understanding why to choose one answer over the other when faced with simliar answer choices. Sometimes you find there may be two correct answers but you have to choose the "BEST" or "LEAST" of the multiple choice options; those keywords make a huge difference. You'll be able to narrow the multiple choice down by deepening your understanding of the <a href="https://www.comptia.jp/pdf/Security%2B%20SY0-501%20Exam%20Objectives.pdf">CompTIA® Security+ Objectives</a>. Knowing why other answers are wrong brings things full circle and ultimately gives you extra time for more challenging problems."</i>
 <br></br><i>
 "Lastly, when scheduling your exam - you might want to consider choosing a day where you wouldn't expect much traffic as there may be other students taking other exams at the same time. For example, going in on a Tuesday worked best for me as opposed to choosing Saturday. There was a noticable difference in my experience; truly night and day. The testing center should also have ear plugs handy so if you need them to block any distractions I recommend it. There's nothing worse than having your flow state broken because you keep ng the door open & close or you lose focus noticing the small detail of another student having a difficult time as well getting through some of the questions."</i>
 <br></br>
 <i>"Best of luck and feel free to contact me for any additional help! You can reach out to me directly via email in the "Contact Me" portion of my site." - Abraham Ige </i><br><hr><br>
-<p><b>For additional information, please see: <a href="https://github.com/aige-prime/Mastering_Your_Cert_2U">Mastering Your Cybersecurity Certification</a></b><br><p style="color:purple">(Q). What are Stackable Certifications? Basic Terminology, Concepts, & Strategies for passing the Exam. How they can add Value to your career with <i>Supplemental Resources.<i></p><p><i><a href="https://www.comptia.org/certifications/which-certification/stackable-certifications"><p style="color:blue">(A). Stackable certifications demonstrate that you’ve earned multiple CompTIA® certifications and have the knowledge and experience needed to grow your IT career. They validate the skills of various IT roles and show a deeper mastery, opening up more job opportunities for you. Stackable certifications require active CE certifications.</i></p></a>
+<p><b>For additional information, please see: <a href="#">Mastering Your Cybersecurity Certification</a></b><br><p style="color:purple">(Q). What are Stackable Certifications? Basic Terminology, Concepts, & Strategies for passing the Exam. How they can add Value to your career with <i>Supplemental Resources.<i></p><p><i><a href="https://www.comptia.org/certifications/which-certification/stackable-certifications"><p style="color:blue">(A). Stackable certifications demonstrate that you’ve earned multiple CompTIA® certifications and have the knowledge and experience needed to grow your IT career. They validate the skills of various IT roles and show a deeper mastery, opening up more job opportunities for you. Stackable certifications require active CE certifications.</i></p></a>
   <p style="text-align:left padding-right: 50%">
   <hr>
 </br>
@@ -388,10 +360,10 @@
   <br>
   <p><b>SOURCE: </b>Mastering Your Cybersecurity Certification - Stackable Certs Project by Abraham Ige</p>
 </div>
-  
   <button class="accordion">Technical Documentation</button>
 <div class="panel"><br>
   <p><b>DESCRIPTION:</b></br><!--What is Technical Documentation? <i>Documentation is the product of technical writing that refers to different documents with product-related data and information; it has the details about a technical product that is either under development or already in use.</i></p><br>-->
+  
   <p>Cyber attacks are growing in complexity, and the damage these can cause in an organization can be significant and debilitating. Cybersecurity documentation can help offset and reduce these risks by outlining security efforts to personnel about responding to disasters or incidents.<br><br>
 
 Cybersecurity documentation educates employees about standard operating procedures when digital attacks happen. Failing to prepare is preparing to fail. These days we can’t afford to ignore cyberattacks from phishing efforts, ransomware, and advanced persistent threats.</p>
@@ -546,74 +518,7 @@ for (i = 0; i < acc.length; i++) {
                             </div>
                         </div>
                     </div>
-                  <!--  <div class="col-lg-4 col-md-6 mb-4 pt-5">
-                        <div class="card shadow-sm border-0">
-                            <div class="card-body">
-                                <div class="user-picture">
-                                    <img src="https://i.picsum.photos/id/836/130/130.jpg?hmac=Sot_REUw5W-XSuE6FmCjT9JenhZfiNqZYs3AQbfrZsc" class="shadow-sm rounded-circle" height="130" width="130" />
-                                </div>
-                                <div class="user-content">
-                                    <h5 class="text-capitalize user-name">George Alex</h5>
-                                    <p class=" text-capitalize text-muted small blockquote-footer">Web developer</p>
-                                    <div class="small">
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star-half-alt text-warning"></i>
-                                        <i class="fas fa-star text-light"></i>
-                                        <i class="fas fa-star text-light"></i>
-                                        <i class="fas fa-star text-light"></i>
-                                    </div>
-                                    <p class="small text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nemo harum repellendus aut itaque. Temporibus quaerat dolores ut, cupiditate molestiae commodi! Distinctio praesentium, debitis aut minima doloribus earum
-                                        quia commodi.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4 pt-5">
-                        <div class="card shadow-sm border-0">
-                            <div class="card-body">
-                                <div class="user-picture">
-                                    <img src="https://images.unsplash.com/photo-1495603889488-42d1d66e5523?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130" class="shadow-sm rounded-circle" height="130" width="130" />
-                                </div>
-                                <div class="user-content">
-                                    <h5 class="text-capitalize user-name">Carry Johnshon</h5>
-                                    <p class=" text-capitalize text-muted small blockquote-footer">Web developer</p>
-                                    <div class="small">
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star-half-alt text-warning"></i>
-                                        <i class="fas fa-star text-light"></i>
-                                    </div>
-                                    <p class="small text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nemo harum repellendus aut itaque. Temporibus quaerat dolores ut, cupiditate molestiae commodi! Distinctio praesentium, debitis aut minima doloribus earum
-                                        quia commodi.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4 pt-5">
-                        <div class="card shadow-sm border-0">
-                            <div class="card-body">
-                                <div class="user-picture">
-                                    <img src="https://images.unsplash.com/photo-1582003457856-20898dd7e1ea?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=130" class="shadow-sm rounded-circle" height="130" width="130" />
-                                </div>
-                                <div class="user-content">
-                                    <h5 class="text-capitalize user-name">Alex Carry</h5>
-                                    <p class=" text-capitalize text-muted small blockquote-footer">Web developer</p>
-                                    <div class="small">
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star text-warning"></i>
-                                        <i class="fas fa-star-half-alt text-warning"></i>
-                                        <i class="fas fa-star text-light"></i>
-                                        <i class="fas fa-star text-light"></i>
-                                    </div>
-                                    <p class="small text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nemo harum repellendus aut itaque. Temporibus quaerat dolores ut, cupiditate molestiae commodi! Distinctio praesentium, debitis aut minima doloribus earum
-                                        quia commodi.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
+                  
             <!-- /cards -->
         </section>
         <!-- /Ui cards -->
