@@ -1,4 +1,4 @@
-<!--DOCTYPE HTML5 | Developer: /CTRL --- xml.BUILD.2023.11::2020.04.10.003-->
+<!--DOCTYPE HTML5 | Developer: /CTRL --- xml.BUILD.2024.01::2020.04.10.003-->
 
 <html lang=en onselectstart='return false;'>
 
@@ -37,26 +37,28 @@
 		<link rel="icon" type="image/x-icon" type="image/png" href="../favicons/icons8-globe-windows-11-color-32.png"></link>
 	</head>
   <!--{Ping Website Loader Added 09.03.2023}-->
-  <div class="ping"></div>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/quantum.js"></script>
+<!--Default values shown-->
+<l-quantum  size="45"  speed="1.75"  color="black" ></l-quantum>
+  <div class="ping">
 	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Alike+Angular|Asul|Concert+One|Eczar|Fruktur|Kavoon|Neuton|Raleway:100|Space+Mono|Tillana|Work+Sans" rel="stylesheet"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-  <nav class="navbar fixed-top navbar-expand-lg text-white navbar-default" style="width:100%; box-shadow: 0 0 .5px 0 ;
+  <nav class="navbar fixed-top navbar-expand-lg text-white navbar-default" style="width:100%; box-shadow: 0 0 .25px 0 ;
       background: inherit;
       backdrop-filter: blur(75px);
       <!--margin: 100px; according to your need--">
   <a name="#" class="navbar-brand" id="navbar" href="#"><i class="" style="font-size:20px;color:white"></i>  <!--&#127760;-->  &#127758; </a>
-  <button class="navbar-toggler navbar-default" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler navbar-default navbar-expand-lg" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon navbar-default" style="color: white"></span>
   </button>
   <div name="aboutme-section" class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item" style="white-space:nowrap;">
-        <a class="nav-link collapse" id="welcome" href="#About" style='font-size:20px;color:white;white-space:nowrap; margin-right:auto;'>About<span class="sr-only">(current)</span></a><center>
-		</li><li class="nav-item"><a class="nav-link" href="#"></a></li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle collapse" href="#" id="projects" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style='font-size:20px;color:white' style='font-size:20px;color:white;'>Projects</a>
+    <ul class='navbar-nav mr-auto' style='text-align: center;'>
+      <li class="nav-item" style="white-space: nowrap; ">
+        <a class="nav-link collapse" id="welcome" href="#About" >About<span class="sr-only">(current)</span></a>
+		<!--</li><li class="nav-item"><a class="nav-link" href="#"></a></li>-->
+      <li class="nav-item dropdown style = 'display: initial;'">
+	  <a class="nav-link dropdown-toggle collapse" href="#" id="projects" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            
           </a><div id="nav-links"> 
           <a class="dropdown-divider" >
 					<!--<h5 class="dropdown-item" href="#" data-toggle="modal" id="project-link">Python Calculator</h5>-->
@@ -72,13 +74,13 @@
           <div class="dropdown-divider"></div> 
 		  		  <a class="dropdown-item" id="project-link" href="#project-acc">Projects</a>
 		  <a class="dropdown-item" href="#study" id="project-link">Study Resources</a>
-		  <a class="dropdown-item" href="#devtools" id="project-link">Developer Toolbox</a>
+		  <a class="dropdown-item" href="#devtools" id="project-link">Skills</a>
 		  <a class="dropdown-item" id="project-link" href="#">GitHub</a>
 		  </h5>
         </div>
       </li>
       <li class="nav-item">
-        <a name="contactsection collapse" class="nav-link" id="contact-page" href="#contact" style='font-size:20px;color:white'>Contact<span class="sr-only" ></span></a>
+        <a name="contactsection collapse" class="nav-link" id="contact-page" href="#contact" >Contact<span class="sr-only" ></span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#"></a>
@@ -124,7 +126,11 @@
 					this.isDeleting = false;
 				};
 
+
+
+
 				TxtType.prototype.tick = function() {
+					/*var ticker = documents.getElementsByClassName('tick');*/
 					var i = this.loopNum % this.toRotate.length;
 					var fullTxt = this.toRotate[i];
 
@@ -133,6 +139,8 @@
 					} else {
 					this.txt = fullTxt.substring(0, this.txt.length + 1);
 					}
+					
+					
 
 					this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
@@ -154,7 +162,8 @@
 					that.tick();
 					}, delta);
 				};
-
+				
+			
 				window.onload = function() {
 					var elements = document.getElementsByClassName('typewrite');
 					for (var i=0; i<elements.length; i++) {
@@ -167,7 +176,8 @@
 					// INJECT CSS
 					var css = document.createElement("style");
 					css.type = "text/css";
-					css.innerHTML = ".typewrite > .wrap { border-right: 0.035em solid #90ee90}";
+					css.innerHTML = ".typewrite > .wrap { border-right: 0.050em solid #90ee90}; .TxtType > .prototype > .tick {animation: blinker 1s step-start infinite;} @keyframes {50%{ opacity: 0}}";
+
 					document.body.appendChild(css);
 				};
 					</script>
@@ -604,7 +614,7 @@ for (i = 0; i < acc.length; i++) {
  
  
  <br></br>
-   <h4 class="section" id="devbox"><center>DEVELOPER TOOLBOX</center></h4><br>
+   <h4 class="section" id="devbox"><center>SKILLS:</center></h4><br>
     <p><br><br></br>
     <ul class="myText"><center>
 		<b>LANGUAGES:</b><h7 style="font-size:16px;"> Python, RIFL, T-SQL, HTML5, JavaScript ES6, & CSS</h7></li><br><br>

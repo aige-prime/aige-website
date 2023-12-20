@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,700italic,800);
 
+
 html {   
   box-shadow: inset 5 4 2 5000px solid;
   scroll-behavior: smooth;
@@ -151,12 +152,11 @@ footer {
 #links {
 	float: right;
 	font-size: 30px;
-	margin-right: 20px;
 	color: white;
 }
 
 p {
-	float: ;
+	float: none;
 	justify-content: left;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -170,19 +170,26 @@ p {
 }
 
 #navbar {
-  top: 0px;
-  width: 41.8%;
-  color: white;
+	top: 0px;
+	width: 41.8%;
+	color: white;
+	text-align: left;
 }
 
 #navbar:after {
-  clear: both;
-  display: block;
-  color: white;
+	clear: both;
+	display: inline;
+	color: white;
+	
+}
+
+#nav-link {
+	text-align: left;
+	font-size:20px;color:white;
 }
 
 /*Navbar Responsive Block*/
-@media only screen and (max-width: 600px) {#navbar {display: inline-block;float: none;}}
+@media only screen and (max-width: 600px) { #navbar {display: inline; float: none; }}
 
 #project-acc {
     text-align: left;
