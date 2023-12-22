@@ -15,7 +15,7 @@ body {
   /*background-image: url("https://ak6.picdn.net/shutterstock/videos/22579516/thumb/1.jpg; ") */
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  b
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-color: 101, 156, 52;
@@ -239,6 +239,11 @@ font-family: 'Work Sans', sans-serif;
 	padding-right: 20px;
 }
 
+.rss {
+	
+	position: fixed; bottom: 0;left: 0; width: 100vw;
+}
+
 /*Responsive CSS Triggers*/
 @media only screen and (min-width: 320px) {
 
@@ -252,8 +257,8 @@ font-family: 'Work Sans', sans-serif;
 
 	.myText {
 		font-size: 2vh;
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
 		text-justify: auto;
 		justify-content:center;width:425px auto;word-wrap: normal;
 }
@@ -268,9 +273,20 @@ font-family: 'Work Sans', sans-serif;
 		text-align: center;
 		justify-content: flex-start;
 		display: none;
-		
+		font-size: 70%;
 	}
+
+  
 	
+	/*Typewriter Responsive Font Size*/
+	.wrap {
+  font-family: 'Work Sans', sans-serif;
+  size: 50%;
+  text-align-last: center;
+  padding-right: 1px;
+  padding-left: 1px
+  text-justify: auto;
+}
 	/*Repsonsive Pointer to the Typerwriter welcome message*/
 	
 	
