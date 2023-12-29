@@ -81,6 +81,23 @@ h3 {
   offset: 50%;
 }
 
+#s {
+  font-family: 'Work Sans', sans-serif;
+  text-align-last: center;
+  font-size: 35px;
+  text-shadow: .5px .5px .5px #000000;
+  text-justify: auto;
+
+}
+
+#cybernews {
+  font-family: 'Work Sans', sans-serif;
+  text-align-last: center;
+  font-size: 35px;
+  text-justify: auto;
+
+}
+
  h7 {
     font-family: "Raleway", sans-serif;
     text-align: left;
@@ -118,8 +135,9 @@ ul {
 }
 
 #Skills {
-  font-size: ;
+  font-size: 35px ;
   text-align: center;
+  text-justify: auto;
 }
 
 #About {
