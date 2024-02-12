@@ -6,35 +6,43 @@ html {
 }
 
 body {
-	background-image: url("https://i.pinimg.com/originals/a8/7d/c2/a87dc28d1f0ff4b8518a636d0f9aca6c.gif");
-  /*background-image: url("https://i.pinimg.com/originals/93/2d/ac/932dac29bcee119b9efeadef7dd12c74.gif");*/
-  /*background-image: url("https://gifimage.net/wp-content/uploads/2017/10/discord-gif-emoji-3.gif");*/
-  /*background-image: url("https://media1.giphy.com/media/gh0RRgkTXedvF0pDc0/giphy.gif?cid=ecf05e473zwlu2p24opzbca488fy0vmqtc75va1dwhr3mv5y&rid=giphy.gif&ct=g");*/
-  /*background-image: url("https://i.pinimg.com/originals/93/2d/ac/932dac29bcee119b9efeadef7dd12c74.gif") */
-  /*background-image: url("https://wallpapercave.com/wp/wp2757834.gif;") */
-  /*background-image: url("https://ak6.picdn.net/shutterstock/videos/22579516/thumb/1.jpg; ") */
-  background-size: cover;
-  background-attachment: fixed;
-  b
-  background-blend-mode: darken;
-  background-repeat: no-repeat;
-  background-color: 101, 156, 52;
-	padding-top: auto;
-	padding-left: auto;
-	padding-right: auto;
-	padding-bottom: auto;
-  -webkit-filter: blur(400%);
-  filter: blur(500%);
-  /*padding-top: auto;
-  padding-left:auto;
-  padding-right:auto;
-  padding-bottom: auto;*/
-  overflow-y: hidden;
-  overflow-x: hidden;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	/*Blue Music Bounce Wave*/
+	background-image: url("https://i.pinimg.com/originals/13/18/e1/1318e11aee7e8d6c9a9bf0f6368873a9.gif");
+	
+	/*The Standard Blue Starry Nights*/
+	/*background-image: url("https://i.pinimg.com/originals/a8/7d/c2/a87dc28d1f0ff4b8518a636d0f9aca6c.gif");*/
+	
+	/*Below is the Purple Wave*/
+	/*background-image: url("https://i.pinimg.com/originals/a9/4a/ee/a94aee835e16cff4f14c83dac8ffbe10.gif");*/
+	
+	/*background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHRrYzhncDZ0b25wc3l6aXZ5YjI3NG5ieDk0b2FuZHplbm04ZGd0ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sOzHwf1DF8h96A5tXU/giphy.gif");*/
+	/*background-image: url("https://i.pinimg.com/originals/93/2d/ac/932dac29bcee119b9efeadef7dd12c74.gif");*/
+	/*background-image: url("https://gifimage.net/wp-content/uploads/2017/10/discord-gif-emoji-3.gif");*/
+	/*background-image: url("https://media1.giphy.com/media/gh0RRgkTXedvF0pDc0/giphy.gif?cid=ecf05e473zwlu2p24opzbca488fy0vmqtc75va1dwhr3mv5y&rid=giphy.gif&ct=g");*/
+	/*background-image: url("https://i.pinimg.com/originals/93/2d/ac/932dac29bcee119b9efeadef7dd12c74.gif") */
+	/*background-image: url("https://wallpapercave.com/wp/wp2757834.gif;") */
+	/*background-image: url("https://ak6.picdn.net/shutterstock/videos/22579516/thumb/1.jpg; ") */
+		  background-size: cover;
+		  background-attachment: fixed;
+		  background-blend-mode: darken;
+		  background-repeat: no-repeat;
+		  background-color: 101, 156, 52;
+			padding-top: auto;
+			padding-left: auto;
+			padding-right: auto;
+			padding-bottom: auto;
+		  -webkit-filter: blur(400%);
+		  filter: blur(500%);
+		  /*padding-top: auto;
+		  padding-left:auto;
+		  padding-right:auto;
+		  padding-bottom: auto;*/
+		  overflow-y: hidden;
+		  overflow-x: hidden;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+  
 }
 
 article > h4 {
