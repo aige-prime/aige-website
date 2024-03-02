@@ -43,6 +43,34 @@ body {
   
 }
 
+.contain-header {
+	position: relative;
+	overflow: hidden; 
+	vertical-align: auto;
+	background-color: rgba(0, 0, 0, 0.6);
+	vertical-align: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;	
+}
+
+#videoBackground {
+	height: auto%;
+	vertical-align: middle;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;	
+	
+	}
+	
+
 article > h4 {
   font-family: 'Angular', sans-serif;
   color: white;
