@@ -6,9 +6,13 @@ html {
 }
 
 body {
-	background-image: url("https://i.pinimg.com/originals/e7/c1/4c/e7c14c96730ba6cf05db2a22d5240aa7.gif");
+
+	/*The WD Test*/
+	/*background-image: url("https://preview.redd.it/hello-there-i-made-some-watch-dogs-1-screens-v0-bj5zhfhzoey91.jpg?width=3840&format=pjpg&auto=webp&s=f41fae701bedec8d07852f4e6290eb41219c8e8f");*/
+	/*Grey Matter Wallpaper*/
+	/*background-image: url("https://i.pinimg.com/originals/e7/c1/4c/e7c14c96730ba6cf05db2a22d5240aa7.gif");*/
 	/*Blue Music Bounce Wave*/
-	/*background-image: url("https://i.pinimg.com/originals/13/18/e1/1318e11aee7e8d6c9a9bf0f6368873a9.gif");*/
+	/*background-image: url("https://i.pinimg.com/originals/13/18/e1/1318e11aee7e8d6c9a9bf0f6368873a9.gif");/*
 	/*The Standard Blue Starry Nights*/
 	/*background-image: url("https://i.pinimg.com/originals/a8/7d/c2/a87dc28d1f0ff4b8518a636d0f9aca6c.gif");*/
 	/*Below is the Purple Wave*/
@@ -20,15 +24,18 @@ body {
 	/*background-image: url("https://i.pinimg.com/originals/93/2d/ac/932dac29bcee119b9efeadef7dd12c74.gif") */
 	/*background-image: url("https://wallpapercave.com/wp/wp2757834.gif;") */
 	/*background-image: url("https://ak6.picdn.net/shutterstock/videos/22579516/thumb/1.jpg; ") */
-		  background-size: cover;
-		  background-attachment: fixed;
-		  background-blend-mode: darken;
-		  background-repeat: no-repeat;
-		  background-color: 101, 156, 52;
-			padding-top: auto;
-			padding-left: auto;
-			padding-right: auto;
-			padding-bottom: auto;
+	/*background-image: url("/img/thebunker.jpg")*/
+	/*background-image: url("https://i.redd.it/dw8s32crmas51.jpg");*/
+		background-size: cover;
+		background-color: black;
+		background-attachment: fixed;
+		background-blend-mode: darken darken;
+		background-repeat: no-repeat;
+		background-color: 101, 156, 52;
+		padding-top: auto;
+		padding-left: auto;
+		padding-right: auto;
+		padding-bottom: auto;
 		  -webkit-filter: blur(400%);
 		  filter: blur(500%);
 		  /*padding-top: auto;
@@ -40,35 +47,57 @@ body {
 		  -webkit-background-size: cover;
 		  -moz-background-size: cover;
 		  -o-background-size: cover;
+		   box-shadow: inset 0 0 800px #000;
+		  
   
 }
 
 .contain-header {
 	position: relative;
 	overflow: hidden; 
-	vertical-align: auto;
 	background-color: rgba(0, 0, 0, 0.6);
-	vertical-align: auto;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	min-width: 100%;
-	min-height: 100%;	
+	min-height: 100%;
+	width: 100vw;
+	height: 100vh;
+
+	
+
+/*@media screen and (max-aspect-ratio: 1920/1080) {
+  .contain-header > video {
+    height: 100%;
+  }
+}
+@media screen and (min-aspect-ratio: 1920/1080) {
+  .contain-header > video {
+    width: 100%;
+  }
+}*/	
+	
 }
 
 #videoBackground {
+	position: relative;
 	height: auto%;
-	vertical-align: middle;
 	position: fixed;
 	top: 0;
-	left: 0;
+	left: -60px;
 	right: 0;
 	bottom: 0;
-	min-width: 100%;
-	min-height: 100%;	
+	min-width: 50%;
+	min-height: 50%;	
+	object-fit: cover;
+	background-color: black;
+	background-position: center;
+	margin-left:;
 	
-	}
+}
+
+.center {margin: 0 auto; wide: 400px;}
 	
 
 article > h4 {

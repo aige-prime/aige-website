@@ -1,7 +1,5 @@
 User-agent: *
 User-agent: * Googlebot Allow: 
 
-Disallow: /
-
 Disallow: /wp/wp-admin
 Disallow: /*?*
