@@ -27,7 +27,7 @@ body {
 	/*background-image: url("/img/thebunker.jpg")*/
 	/*background-image: url("https://i.redd.it/dw8s32crmas51.jpg");*/
 		background-size: cover;
-		background-color: black;
+		background-color: #000000;
 		background-attachment: fixed;
 		background-blend-mode: darken darken;
 		background-repeat: no-repeat;
@@ -91,9 +91,9 @@ body {
 	min-width: 50%;
 	min-height: 50%;	
 	object-fit: cover;
-	background-color: black;
 	background-position: center;
 	margin-left:;
+	color: #000000;
 	
 }
 
