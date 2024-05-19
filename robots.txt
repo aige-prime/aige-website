@@ -3,3 +3,4 @@ User-agent: * Googlebot Allow:
 
 Disallow: /wp/wp-admin
 Disallow: /*?*
+
