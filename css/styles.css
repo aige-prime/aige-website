@@ -144,9 +144,9 @@ h3 {
 
 #project-link {
   font-family: 'Work Sans', sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   text-align-last: left;
-  offset: 50%;
+  
   
 }
 
@@ -168,6 +168,11 @@ h3 {
 
 }
 */
+
+#dropdown-menu {
+	
+	font-size:25px;
+}
 
  h7 {
     font-family: "Raleway", sans-serif;
