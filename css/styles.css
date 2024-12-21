@@ -115,6 +115,10 @@ article > h4 {
   text-justify: auto;
 }
 
+div:empty {
+  display: none;
+}
+
 #UL {
   font-family: 'Raleway', san-serif;
   color: white;
