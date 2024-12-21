@@ -114,8 +114,8 @@
   <link rel="stylesheet" href="#">
   <h3></h3>
 <span style="outline:none;" container="Welcome" id="welcome-section">
-<!--	MAIN ROTARY	 --><br><br>
-	<div class='rotary' style=' border: none; justify-content: center; margin-top: -7%; margin-inline:15%; justify-content: center; @media (min-width: 320px){ .rotary {display:flex; size: 25%; margin-inline:15%; word-wrap: initial; } }'>
+<!--	MAIN ROTARY	 -->
+	<span class='rotary' style=' border: none; justify-content: center; margin-top: -7%; margin-inline:15%; justify-content: center; @media (min-width: 320px){ .rotary {display:flex; size: 25%; margin-inline:15%; word-wrap: initial; } }'>
 					<h2 class="noselect"></h2>
 					  <!--<h1 id="name" style="font-size: clamp(24px, 8.5vw, 58px);"></h1><br><br>-->
 					<h2>
@@ -135,9 +135,6 @@
 					this.isDeleting = false;
 				};
 
-
-
-
 				TxtType.prototype.tick = function() {
 					/*var ticker = documents.getElementsByClassName('tick');*/
 					var i = this.loopNum % this.toRotate.length;
@@ -149,8 +146,6 @@
 					this.txt = fullTxt.substring(0, this.txt.length + 1);
 					}
 					
-					
-
 					this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
 					var that = this;
@@ -172,7 +167,6 @@
 					}, delta);
 				};
 				
-			
 				window.onload = function() {
 					var elements = document.getElementsByClassName('typewrite');
 					for (var i=0; i<elements.length; i++) {
@@ -190,7 +184,7 @@
 					document.body.appendChild(css);
 				};
 					</script>
-	</div>
+	</span>
 </span>	
 	<span container="info" id="About"></span>
     <article>
