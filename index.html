@@ -111,10 +111,9 @@
       </header>
   <body oncontextmenu="return false" style="height:100%; overflow:auto;">
     <link rel="stylesheet" href="#">
-  <h3></h3>
-<span style="outline:none;" container="Welcome" id="welcome-section">
+<span style="" container="Welcome" id="welcome-section">
 <!--	MAIN ROTARY	 -->
-	<span class='rotary' style=' border:; justify-content: center; margin-top: 0%; margin-inline:0%; justify-content: center; @media (min-width: 320px){ .rotary {display:flex; size: 25%; margin-inline:0%; word-wrap: initial; } }'>
+	<span class='rotary' style=' border:; justify-content: center; margin-top: -7%; margin-inline:25%; justify-content: center; @media (min-width: 320px){ .rotary {display:flex; size: 25%; margin-inline:25%; word-wrap: initial; } }'>
 					<h2 class="noselect"></h2>
 					  <!--<h1 id="name" style="font-size: clamp(24px, 8.5vw, 58px);"></h1><br><br>-->
 					<h2>
@@ -124,71 +123,72 @@
 						<!--<span class="wrap"></span>-->
 					  <!--Typerwriter Welcome Message-->
 					<script>
-					var TxtType = function(el, toRotate, period) {
-					this.toRotate = toRotate;
-					this.el = el;
-					this.loopNum = 0;
-					this.period = parseInt(period, 10) || 2000;
-					this.txt = '';
-					this.tick();
-					this.isDeleting = false;
-				};
+						var TxtType = function(el, toRotate, period) {
+						this.toRotate = toRotate;
+						this.el = el;
+						this.loopNum = 0;
+						this.period = parseInt(period, 10) || 2000;
+						this.txt = '';
+						this.tick();
+						this.isDeleting = false;
+					};
 
-				TxtType.prototype.tick = function() {
-					/*var ticker = documents.getElementsByClassName('tick');*/
-					var i = this.loopNum % this.toRotate.length;
-					var fullTxt = this.toRotate[i];
+					TxtType.prototype.tick = function() {
+						/*var ticker = documents.getElementsByClassName('tick');*/
+						var i = this.loopNum % this.toRotate.length;
+						var fullTxt = this.toRotate[i];
 
-					if (this.isDeleting) {
-					this.txt = fullTxt.substring(0, this.txt.length - 1);
-					} else {
-					this.txt = fullTxt.substring(0, this.txt.length + 1);
-					}
-					
-					this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-					var that = this;
-					var delta = 200 - Math.random() * 100;
-
-					if (this.isDeleting) { delta /= 2; }
-
-					if (!this.isDeleting && this.txt === fullTxt) {
-					delta = this.period;
-					this.isDeleting = true;
-					} else if (this.isDeleting && this.txt === '') {
-					this.isDeleting = false;
-					this.loopNum++;
-					delta = 500;
-					}
-
-					setTimeout(function() {
-					that.tick();
-					}, delta);
-				};
-				
-				window.onload = function() {
-					var elements = document.getElementsByClassName('typewrite');
-					for (var i=0; i<elements.length; i++) {
-						var toRotate = elements[i].getAttribute('data-type');
-						var period = elements[i].getAttribute('data-period');
-						if (toRotate) {
-						  new TxtType(elements[i], JSON.parse(toRotate), period);
+						if (this.isDeleting) {
+						this.txt = fullTxt.substring(0, this.txt.length - 1);
+						} else {
+						this.txt = fullTxt.substring(0, this.txt.length + 1);
 						}
-					}
-					// INJECT CSS
-					var css = document.createElement("style");
-					css.type = "text/css";
-					css.innerHTML = ".typewrite > .wrap { border-right: 0.050em solid #90ee90}; .TxtType > .prototype > .tick {animation: blinker 1s step-start infinite;} @keyframes {50%{ opacity: 0}}";
+						
+						this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
-					document.body.appendChild(css);
-				};
+						var that = this;
+						var delta = 200 - Math.random() * 100;
+
+						if (this.isDeleting) { delta /= 2; }
+
+						if (!this.isDeleting && this.txt === fullTxt) {
+						delta = this.period;
+						this.isDeleting = true;
+						} else if (this.isDeleting && this.txt === '') {
+						this.isDeleting = false;
+						this.loopNum++;
+						delta = 500;
+						}
+
+						setTimeout(function() {
+						that.tick();
+						}, delta);
+					};
+					
+					window.onload = function() {
+						var elements = document.getElementsByClassName('typewrite');
+						for (var i=0; i<elements.length; i++) {
+							var toRotate = elements[i].getAttribute('data-type');
+							var period = elements[i].getAttribute('data-period');
+							if (toRotate) {
+							  new TxtType(elements[i], JSON.parse(toRotate), period);
+							}
+						}
+						// INJECT CSS
+						var css = document.createElement("style");
+						css.type = "text/css";
+						css.innerHTML = ".typewrite > .wrap { border-right: 0.050em solid #90ee90}; .TxtType > .prototype > .tick {animation: blinker 1s step-start infinite;} @keyframes {50%{ opacity: 0}}";
+
+						document.body.appendChild(css);
+					};
 					</script>
 	</span>
 </span>
-	<article>
+	<article class="main_content">
 	<span container="info" id="About"></span>
       <span class="aboutMe_Box" style="padding-left:1.5%;padding-right:1.5%;margin-left:1.5%;margin-right:1.5%;"><br><br><br><br>
-      <h4 id="About" name="aboutme-section">About Me</h4></span>
+      <h4 id="About" name="aboutme-section">About Me</h4>
+	  </span>
 			<section id="about">
 			  <p id="aboutme" class="myText">
 			  <p id="main" class="myText" style="justify-content-center; margin-right:auto;margin-left:auto;color:white; align: center;">
@@ -617,7 +617,7 @@ for (i = 0; i < acc.length; i++) {
 </div>
 </section>
 </body>
-</article>
+
  <!--PATCHED - Error Noted Date: 05.18.2020 & FIX APPLIED 2024.01.12 - //Removed unused 'p' tags and page breaks causing issues in body overlay - CTRL//-->
  <!--<article container="Skills" id="devtools"><a name="devtools"><br></br><hr>
    <h4 class="section" id="devbox"><center>TOOLSET:</center></h4>
@@ -756,7 +756,7 @@ for (i = 0; i < acc.length; i++) {
 	  
 	  
 	  <!--
-      <footer>Copyright &copy 2022 - 2023 | 360º VISUALS, RESEARCH + DESIGN CO. |
+      <footer>Copyright &copy 2022 - 2023 | ---------- |
 		<h7>
 		This site has been scanned for viruses and malware, and may have been automatically archived by Google &reg, an innovator in Software as a Service (SaaS) for business. Providing a safer and more useful place for your human generated data. Specializing in; Security, archiving and compliance. For more visit: <a href="https://safety.google/security-privacy/" style="font-size:12px;" title="Google&reg - Safety Center"</a> Google&reg - Safety Center </a> | <h7><a href="https://www.termsfeed.com/live/901e130e-8b54-4822-a93d-0c02766121ec" title="DISCLAIMER">Disclaimer</a></h7>
        </h7>
@@ -788,9 +788,9 @@ for (i = 0; i < acc.length; i++) {
 </main>
 
   
-
+</article>
 	</div>
-
+</body>
 <footer class="bg-dark text-center text-lg-start text-white">
     <!-- Grid container -->
     <!-- Copyright -->
@@ -802,5 +802,5 @@ for (i = 0; i < acc.length; i++) {
       <a class="text-white" href="#"></a>
     </div>
     <!-- Copyright -->
-  </footer>
+ </footer>
 <!-- End Site-->

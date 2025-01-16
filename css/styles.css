@@ -57,6 +57,10 @@ body {
   
 }
 
+div:empty {
+  display: none;
+}
+
 .contain-header {
 	position: relative;
 	overflow: hidden; 
@@ -84,7 +88,7 @@ body {
 }
 
 
-#videoBackground {
+/*#videoBackground {
 	position: relative;
 	height: auto;
 	width: auto;
@@ -99,7 +103,7 @@ body {
 	background-position: fixed;
 	color: #000000;
 	
-}
+}*/
 
 
 .center {margin: 0 auto; wide: 400px;}
@@ -109,15 +113,12 @@ article > h4 {
   font-family: 'Angular', sans-serif;
   color: white;
   font-size: 24vw;
-  letter-spacing: 0px;
   padding-left: 70px;
   padding-right: 70px;
   text-justify: auto;
 }
 
-div:empty {
-  display: none;
-}
+
 
 #UL {
   font-family: 'Raleway', san-serif;
@@ -202,7 +203,7 @@ ul {
   padding-top: 0px;
   margin-top: 0px;
   display: block;
-  height: 100vh;
+  height: 100%;
 }
 
 #name {
