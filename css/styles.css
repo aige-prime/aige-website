@@ -40,7 +40,6 @@ body {
 		padding-right: auto;
 		padding-bottom: auto;
 		background-position: center center;	
-		background-size: contain;
 		  -webkit-filter: blur(400%);
 		  filter: blur(500%);
 		  /*padding-top: auto;
@@ -51,7 +50,7 @@ body {
 		  overflow-x: hidden;
 		  -webkit-background-size: cover;
 		  -moz-background-size: cover;
-		  -o-background-size: cover;
+		  -o-background-size:`	[]= cover;
 		   box-shadow: inset 0 0 800px #000;
 		  
   
@@ -539,7 +538,6 @@ font-family: 'Work Sans', sans-serif;
 	}
 
   
-	
 	/*Typewriter Responsive Font Size*/
 	.wrap {
   font-family: 'Work Sans', sans-serif;
