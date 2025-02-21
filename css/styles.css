@@ -354,6 +354,16 @@ body {
   filter: grayscale(100%);
 }
 
+/*-------------VIDEO SPAN--------------*/
+.video-container {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
 
 ul {
   padding-left: 125px;
@@ -671,8 +681,23 @@ font-family: 'Work Sans', sans-serif;
 
 
 
-/**/
+/*Site Map Additions*/
 
+
+@media screen and (min-width: 320px) {
+  .tl-content {
+    font-size: 0px;
+	display: none;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 320px) {
+  .tl-content {
+    font-size: 0px;
+	display:  none;
+  }
+}
 
 
 
