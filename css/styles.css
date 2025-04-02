@@ -301,6 +301,7 @@ body {
   filter: grayscale(0);
   color: #FFFFFF;
 }
+
 .tl-content {
   transform: translate3d(0, 0, 0) translateY(25px);
   position: relative;
@@ -310,14 +311,15 @@ body {
   top: 55%;
   opacity: 0;
   color: white;
+  font-size: clamp(2rem, 2.5vw, 3.5rem);
 }
 .tl-content h1 {
   font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
   text-transform:;
   color: #1779cf;
-  font-size: 1.44rem;
+  font-size: 1.2rem;
   font-weight: normal;
-  
+  text-overflow: clip-edge;
 }
 
 .tl-item p {
@@ -333,10 +335,11 @@ body {
   transform: translateX(-50%) translateY(-50%);
   z-index: 1;
   border-bottom: 1px solid #FFFFFF;
+  font-size: clamp:(1.0rem, 1.5vw, 1.5rem);
 }
 .tl-year p {
   font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 1.728rem;
+  font-size: clamp:(0rem, 1vw, 1.0rem);
   line-height: 0;
   color: #FFFFFF;
 
@@ -496,13 +499,13 @@ p {
 }
   
 .list-unstyled {
-font-family: 'Work Sans', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  offset: 40%;
-  color: white;
-  padding-left: 100px;
-  padding-right: 100px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	offset: 40%;
+	color: white;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 .accordion {
@@ -547,16 +550,85 @@ font-family: 'Work Sans', sans-serif;
 		font-size: 70%;
 	}
 
+	.tl-content p (
+		display: none !important;
+		position: absolute; 
+		overflow: hidden; 
+		clip: rect(0 0 0 0); 
+		height: 1px; width: 1px; 
+		margin: -1px; padding: 0; border: 0;
+	)
+	
+}
+/*
+	.tl-content {
+				display:;
+				position: absolute; 
+				overflow: hidden; 
+				clip: rect(0 0 0 0); 
+				height: 1px; width: 1px; 
+				margin: -1px; padding: 0; border: 0; 
+		}
+	 
+		.tl-content {
+				display: none !important;
+				position: absolute; 
+				overflow: hidden; 
+				clip: rect(0 0 0 0); 
+				height: 1px; width: 1px; 
+				margin: -1px; padding: 0; border: 0; 
+
+		}
+		.tl-content h1 {
+				display: none !important;
+				position: absolute; 
+				overflow: hidden; 
+				clip: rect(0 0 0 0); 
+				height: 1px; width: 1px; 
+				margin: -1px; padding: 0; border: 0; 
+
+		}
+
+		.tl-item p {
+				display: none !important;
+				position: absolute; 
+				overflow: hidden; 
+				clip: rect(0 0 0 0); 
+				height: 1px; width: 1px; 
+				margin: -1px; padding: 0; border: 0; 
+
+		}
+		.tl-year {
+				display: none !important;
+				position: absolute; 
+				overflow: hidden; 
+				clip: rect(0 0 0 0); 
+				height: 1px; width: 1px; 
+				margin: -1px; padding: 0; border: 0; 
+
+		}
+		.tl-year p {
+				display: none !important;
+				position: absolute; 
+				overflow: hidden; 
+				clip: rect(0 0 0 0); 
+				height: 1px; width: 1px; 
+				margin: -1px; padding: 0; border: 0; 
+
+		}
+		
+*/
   
 	/*Typewriter Responsive Font Size*/
 	.wrap {
-  font-family: 'Work Sans', sans-serif;
-  size: 50%;
-  text-align-last: center;
-  padding-right: 1px;
-  padding-left: 1px
-  text-justify: auto;
+		  font-family: 'Work Sans', sans-serif;
+		  size: 50%;
+		  text-align-last: center;
+		  padding-right: 1px;
+		  padding-left: 1px
+		  text-justify: auto;
 }
+	
 	/*Repsonsive Pointer to the Typerwriter welcome message*/
 	
 	
@@ -684,19 +756,13 @@ font-family: 'Work Sans', sans-serif;
 /*Site Map Additions*/
 
 
-@media screen and (min-width: 320px) {
-  .tl-content {
-    font-size: 0px;
-	display: none;
-  }
-}
+
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 320px) {
-  .tl-content {
-    font-size: 0px;
-	display:  none;
-  }
+	#timeline-text (
+	display: none;
+	)
 }
 
 
