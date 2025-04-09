@@ -149,7 +149,7 @@ article > h4 {
 h1 {
   font-family: 'Raleway', sans-serif;
   color: white;
-  text-shadow: .5px 5px 3px #000000;
+  text-shadow: .3px 3px 1px #000000;
   text-justify: auto;
   font-size: 8px;
 }
