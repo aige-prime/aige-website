@@ -907,56 +907,9 @@ ul:not(:hover) li a {
   margin-left: 7%;
 }
 
-.socials {
-  position: absolute;
-  z-index: 1;
-  right: 4.5%;
-  margin-top: -75px;
-}
-
-.Facebook {
-  position: relative;
-  right: 70%;
-}
-
-.X {
-  position: relative;
-  right: 60%;
-}
-
-.Instagram {
-  position: relative;
-  right: 50%;
-}
-
-.TikTok {
-  position: relative;
-  right: 40%;
-}
-
-.YouTube {
-  position: relative;
-  right: 30%;
-}
-
-/* Mouse Trailer */
-#trailer {
-  height: 20px;
-  width: 20px;
-  background-color: white;
-  border-radius: 20px;
-  border: 2.5px solid #00b300;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  z-index: 10000;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 500ms ease;
-}
 
 body:hover > #trailer {
   opacity: 1;
 }
 
-/* CODE COPYRIGHT: JUN KAGA, HEATHER LIMBO, JAN MARTIN ALBARACCIN. ORIGIN FROM G9B. PLEASE AVOID COPYING ANY PART OF THIS CODE */
+/* ORIGIN FROM G9B. PLEASE AVOID COPYING ANY PART OF THIS CODE */
