@@ -763,6 +763,7 @@ ul:not(:hover) li a {
 .footer {
   margin-top: 50px;
   z-index: 10;
+  font-size:5px;
 }
 
 .footerbackground1 {
@@ -801,7 +802,7 @@ ul:not(:hover) li a {
 #footercontent {
   display: flex;
   justify-content: center;
-  font-size: 12px;
+  font-size: 5px;
 }
 
 .redirects {
