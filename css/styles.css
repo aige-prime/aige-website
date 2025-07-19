@@ -133,8 +133,8 @@ article > h4 {
   font-family: 'Angular', sans-serif;
   color: white;
   font-size: 24vw;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-justify: auto;
 }
 
@@ -509,8 +509,8 @@ p {
 }
 
 .accordion {
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .rss {

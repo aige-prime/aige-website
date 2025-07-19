@@ -1,4 +1,4 @@
-<!--DOCTYPE HTML5 | Developer: /CTRL --- xml.BUILD.2024.01::2020.04.10.003-->
+<!--DOCTYPE HTML5 | Developer: /CTRL --- xml.BUILD.2024.01::2025.07.18.001-->
 
 <html lang=en onselectstart='return false;'>
 
@@ -201,7 +201,7 @@
 	</span>-->
 	<article class="main_content">
 	<span container="info" id="About"></span>
-      <span class="aboutMe_Box" style="padding-left:1.5%;padding-right:1.5%;margin-left:1.5%;margin-right:1.5%;"><br><br><br><br>
+      <span class="aboutMe_Box" style="padding-left:1.0%;padding-right:1.0%;margin-left:.75%;margin-right:.75%;"><br><br><br><br>
       <h4 id="About" name="aboutme-section">About</h4>
 	  </span>
 			<section id="about">
@@ -222,7 +222,7 @@
 		  background-color: #ffffff00;
 		  color: white;
 		  cursor: pointer;
-		  padding: 7px;
+		  padding: 2px;
 		  width: 100%;
 		  border: none;
 		  text-align: left;
@@ -495,7 +495,7 @@ What Skills Will You Learn?<br><br>
 }
 	</style>
   <p>The Common Thread Holding All of It Together: Networking</p>
-	<p>Landing here for a moment, I realized the Network+ was actually the most interesting and enjoyable area of the learning experience in hindsight. This point of connection, truly empowered me to deepen my understanding of cybersecurity. There are so many layers of the onion to peel back and they overlap at some many branches within IT. If you're trying to understand the "7 Layers of a Network" or the "TCP/IP DoD model", the Network+ holds a key place in the grand scheme of things. While I was reading through the material, I definitely found myself in a space where I knew I had a knack for networking (not subnetting; but honestly once you get the hang of it you're on your way). The domains that cover hardware are really fun too and it had a tangible quality to it that can't be removed from the larger learning experience; they go hand-in-hand. It's a essential component as you continue to widen your lens on the intergral cybersecurity concepts. At this stage, building your own homelab and getting a practical understanding of how to configure firewall policies are critical.
+	<p>Landing here for a moment, I realized the Network+ was actually the most interesting and enjoyable area of study when compared to all other topics in hindsight. This point of connection, pushed me to deepen my understanding of cybersecurity; mainly because the knowledge was so engrossing. There are many layers of the onion to peel back and explore. In addition, they overlap in so many places that extend out to the various branches within IT. If you're trying to understand the "7 Layers of a Network" or the "TCP/IP DoD model", the Network+ holds a key place in the grand scheme of things. While I was reading through the material, I definitely found myself in a space where I knew I had a knack for networking (not subnetting; but honestly once you get the hang of it, its not bad & you're on your way). The chapteres covering hardware are really fun too and it had a tangible quality to it that can't be removed from the larger learning experience; they go hand-in-hand. It's a essential component as you continue to widen your lens on the intergral cybersecurity concepts. At this stage, building your own homelab and getting a practical understanding of how to configure firewall policies are critical.
 	</p>
 	<p>There's so much more I could say about the Network+ but I must leave the rest to imagination. Trust me, you won't be disappointed! Despite the Network+ being a vendor-neutral certification, you can expand deeper into the realm of networking with Cisco's CCNA but here we focus primarily on CompTIA's certification path. Once you've broaden your scope, the various nodes of the overall journey take form and it's up to you to decide which path you'll take - The choice is yours. 
 	</p><br>
@@ -943,12 +943,19 @@ for (i = 0; i < acc.length; i++) {
 		  filter: brightness(0.2);
 		}
 
-		.imgWrap > span{
+		.imgWrap > span {
 		  position: absolute;
 		  z-index: 1;
 		  color: white;
-		  font: 22px Helvetica;
+		  font: Helvetica;
 		  
+		}
+		
+		@media screen and (max-width: 600px) {
+		.imgWrap > .binary_text {
+			font: 50px; 
+			display: none;
+			float: none;}
 		}
 		
 		@media screen and (max-width: 480px) {
@@ -961,8 +968,8 @@ for (i = 0; i < acc.length; i++) {
 		<video autoplay controls loop class="video" src="video/cybersecurity.mp4" frameborder="0" loading="lazy" Cache-Control: no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0 inline muted  allowfullscreen></video>
 	</div>-->
 	<div class="imgWrap">
-		<span style="padding-left:10vh; padding-top:40vh; text-align:left; display:fixed; justify-content:left; font-size:100px; font-family: 'Angular', sans-serif;">“Are you a one or a zero?”</span>
-		<img src="https://hellofuture.orange.com/app/uploads/2021/04/home-HF_GA-1920x1080-CYBERSECU.gif" style="width: 100%;" ></img>
+		<span class="binary_text" style="padding-left:10vh; padding-top:40vh; text-align:left; display:fixed; justify-content:left; font-size:100px; font-family: 'Angular', sans-serif;">“Are you a one or a zero?”</span>
+		<img src="https://hellofuture.orange.com/wp-content/uploads/sites/56/2021/04/home-HF_GA-1920x1080-CYBERSECU.gif" style="width: 100%;" ></img>
 		</div>
 		<style>
 		@media screen and (max-width: 480px) {
