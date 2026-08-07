@@ -965,11 +965,15 @@ for (i = 0; i < acc.length; i++) {
 		
 		@media screen and (max-width: 600px) {
 		.imgWrap > .binary_text {
-			font-size: 50px; 
 			display: none;
 			float: none;}
 		}
 		
+		@media screen and (max-width: 960px) {
+		.binary_text {display:none;}
+		.extra_credit {display:none;}
+		}
+
 		@media screen and (max-width: 480px) {
 		.imgWrap {display:none; margin 0 auto; align-items:center; margin-block:auto; object-fit:cover; max-width:100%; height:auto;}
 		.extra_credit {display:none;}
@@ -980,7 +984,7 @@ for (i = 0; i < acc.length; i++) {
 		<video autoplay controls loop class="video" src="video/cybersecurity.mp4" frameborder="0" loading="lazy" Cache-Control: no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0 inline muted  allowfullscreen></video>
 	</div>-->
 	<div class="imgWrap">
-		<span class="binary_text" style="padding-left:10vh; padding-top:40vh; text-align:left; display:fixed; justify-content:left; font-size:100px; font-family: 'Angular', sans-serif;">“Are you a one or a zero?”</span>
+		<span class="binary_text" id="test" style="padding-left:10vh; padding-top:40vh; text-align:left; display:flex; justify-content:left; font-size:100px; font-family: 'Angular', sans-serif; overflow:hidden;">“Are you a one or a zero?”</span>
 		<img src="https://hellofuture.orange.com/wp-content/uploads/sites/56/2021/04/home-HF_GA-1920x1080-CYBERSECU.gif" style="width: 100%;" ></img>
 		</div>
 		<style>
