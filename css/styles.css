@@ -2,7 +2,8 @@
 
 html {   
   box-shadow: inset 5 4 2 5000px solid;
-  scroll-behavior: smooth;
+  overflow-y: auto;
+  scroll-behavior: smooth !important;
 }
 
 body {
@@ -58,8 +59,6 @@ body {
 		  
   
 }
-
-
 
  /* Style the header: fixed position (always stay at the top) */
 .header {
