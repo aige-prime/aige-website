@@ -181,7 +181,34 @@
 						// INJECT TICKER CSS
 						var css = document.createElement("style");
 						css.type = "text/css";
-						css.innerHTML = ".typewrite > .wrap { border-right: 0.050em solid #90ee90}; .TxtType > .prototype > .tick {animation: blinker 1s step-start infinite;} @keyframes {50%{ opacity: 0}}";
+						css.innerHTML = `
+							/* Remove whatever border the typewriter script injected */
+							.typewrite > .wrap {
+								border-right: none !important;
+								position: relative;
+							}
+
+							/* Create an independent cursor that won't blink the text */
+							.typewrite > .wrap::after {
+								content: "";
+								display: inline-block;
+								width: 2px;
+								height: 1em;
+								background-color: #90ee90;
+								margin-left: 2px;
+								vertical-align: -0.1em;
+								animation: cursorBlink 0.8s steps(2, start) infinite;
+							}
+
+							@keyframes cursorBlink {
+								0%, 100% {
+								opacity: 1;
+								}
+								50% {
+								opacity: 0;
+								}
+							}
+							`;
 						document.body.appendChild(css);
 					};
 					</script>
