@@ -1,9 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,700italic,800);
 
 html {   
-  box-shadow: inset 5 4 2 5000px solid;
-  overflow-y: auto;
-  scroll-behavior: smooth !important;
+  box-shadow: inset 5 4 2 5000px solid; 
+  scroll-behavior: unset !important;
+
+  @media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+  
 }
 
 body {
@@ -49,9 +55,9 @@ body {
 		  /*padding-top: auto;
 		  padding-left:auto;
 		  padding-right:auto;
-		  padding-bottom: auto;*/
+		  padding-bottom: auto;
 		  overflow-y: hidden;
-		  overflow-x: hidden;
+		  overflow-x: hidden;*/
 		  -webkit-background-size: cover;
 		  -moz-background-size: cover;
 		  -o-background-size:	[]= cover;
