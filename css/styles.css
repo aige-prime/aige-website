@@ -194,7 +194,7 @@ h3 {
 }
 
 /*
-#cybernews {
+#`news {
   font-family: 'Work Sans', sans-serif;
   text-align-last: center;
   font-size: 35px;
@@ -567,6 +567,11 @@ p {
 		height: 1px; width: 1px; 
 		margin: -1px; padding: 0; border: 0;
 	)
+
+	
+	.CASP_images {
+		 @media screen and (max-width: 320px) {	display: flex-box; margin: 0 auto; align-content: center; justify-content: center;} 
+	} 
 	
 }
 /*
@@ -765,13 +770,20 @@ p {
 /*Site Map Additions*/
 
 
-
-
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 320px) {
 	#timeline-text (
 	display: none;
 	)
+
+	/*#CASP_ {
+	display: flex-box;
+	margin: 0 auto;
+	justify-content: center;
+	}				*/	
+}
+
+@media screen and (max-width: 320px) {
 }
 
 
